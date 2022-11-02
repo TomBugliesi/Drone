@@ -1,0 +1,3 @@
+C:/Users/Tommaso/C++/Drone/build/pioasm/CMakeFiles/pioasm.dir
+C:/Users/Tommaso/C++/Drone/build/pioasm/CMakeFiles/edit_cache.dir
+C:/Users/Tommaso/C++/Drone/build/pioasm/CMakeFiles/rebuild_cache.dir
