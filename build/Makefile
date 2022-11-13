@@ -232,6 +232,32 @@ pico_mpu9250/fast:
 	$(MAKE) $(MAKESILENT) -f lib\CMakeFiles\pico_mpu9250.dir\build.make lib/CMakeFiles/pico_mpu9250.dir/build
 .PHONY : pico_mpu9250/fast
 
+#=============================================================================
+# Target rules for targets named MahonyAHRS
+
+# Build rule for target.
+MahonyAHRS: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 MahonyAHRS
+.PHONY : MahonyAHRS
+
+# fast build rule for target.
+MahonyAHRS/fast:
+	$(MAKE) $(MAKESILENT) -f lib\CMakeFiles\MahonyAHRS.dir\build.make lib/CMakeFiles/MahonyAHRS.dir/build
+.PHONY : MahonyAHRS/fast
+
+#=============================================================================
+# Target rules for targets named init
+
+# Build rule for target.
+init: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 init
+.PHONY : init
+
+# fast build rule for target.
+init/fast:
+	$(MAKE) $(MAKESILENT) -f lib\CMakeFiles\init.dir\build.make lib/CMakeFiles/init.dir/build
+.PHONY : init/fast
+
 C_/Users/Tommaso/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj: C_/Users/Tommaso/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
 .PHONY : C_/Users/Tommaso/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj
 
@@ -1750,7 +1776,9 @@ help:
 	@echo ... bs2_default_padded_checksummed_asm
 	@echo ... cyw43_driver_picow_cyw43_bus_pio_spi_pio_h
 	@echo ... cyw43_firmware_package
+	@echo ... MahonyAHRS
 	@echo ... bs2_default
+	@echo ... init
 	@echo ... pico_mpu9250
 	@echo ... rooster
 	@echo ... C_/Users/Tommaso/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj

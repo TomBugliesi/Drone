@@ -1,3 +1,4 @@
+
 import serial 
 import argparse
 
@@ -20,3 +21,6 @@ args = vars(ap.parse_args())
 PORT = args['port']
 
 print_serial(PORT)
+
+#cd build 
+#python serial_monitor.py -p COM3

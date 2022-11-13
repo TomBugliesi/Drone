@@ -1185,6 +1185,8 @@ rooster.elf: CMakeFiles/rooster.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_commo
 rooster.elf: CMakeFiles/rooster.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
 rooster.elf: CMakeFiles/rooster.dir/build.make
 rooster.elf: lib/libpico_mpu9250.a
+rooster.elf: lib/libMahonyAHRS.a
+rooster.elf: lib/libinit.a
 rooster.elf: pico-sdk/src/rp2_common/boot_stage2/bs2_default_padded_checksummed.S
 rooster.elf: CMakeFiles/rooster.dir/objects1.rsp
 rooster.elf: CMakeFiles/rooster.dir/link.txt

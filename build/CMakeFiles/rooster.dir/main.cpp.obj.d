@@ -120,10 +120,6 @@ CMakeFiles/rooster.dir/main.cpp.obj: C:\Users\Tommaso\C++\Drone\main.cpp \
  c:\progra~2\armgnu~2\1142da~1.3re\arm-none-eabi\include\c++\11.3.1\bits\ostream.tcc \
  c:\progra~2\armgnu~2\1142da~1.3re\arm-none-eabi\include\c++\11.3.1\istream \
  c:\progra~2\armgnu~2\1142da~1.3re\arm-none-eabi\include\c++\11.3.1\bits\istream.tcc \
- C:\Users\Tommaso\C++\Drone\lib/mpu9250.h \
- c:\progra~2\armgnu~2\1142da~1.3re\arm-none-eabi\include\string.h \
- c:\progra~2\armgnu~2\1142da~1.3re\arm-none-eabi\include\strings.h \
- c:\progra~2\armgnu~2\1142da~1.3re\arm-none-eabi\include\sys\string.h \
  C:\Users\Tommaso\pico\pico-sdk\src\common\pico_stdlib\include/pico/stdlib.h \
  C:\Users\Tommaso\pico\pico-sdk\src\common\pico_base\include/pico.h \
  C:\Users\Tommaso\pico\pico-sdk\src\common\pico_base\include/pico/types.h \
@@ -165,4 +161,10 @@ CMakeFiles/rooster.dir/main.cpp.obj: C:\Users\Tommaso\C++\Drone\main.cpp \
  C:\Users\Tommaso\pico\pico-sdk\src\rp2_common\pico_stdio_usb\include/pico/stdio_usb.h \
  C:\Users\Tommaso\pico\pico-sdk\src\rp2_common\hardware_spi\include/hardware/spi.h \
  C:\Users\Tommaso\pico\pico-sdk\src\rp2040\hardware_structs\include/hardware/structs/spi.h \
- C:\Users\Tommaso\pico\pico-sdk\src\rp2040\hardware_regs\include/hardware/regs/spi.h
+ C:\Users\Tommaso\pico\pico-sdk\src\rp2040\hardware_regs\include/hardware/regs/spi.h \
+ C:\Users\Tommaso\C++\Drone\lib/mpu9250.h \
+ c:\progra~2\armgnu~2\1142da~1.3re\arm-none-eabi\include\string.h \
+ c:\progra~2\armgnu~2\1142da~1.3re\arm-none-eabi\include\strings.h \
+ c:\progra~2\armgnu~2\1142da~1.3re\arm-none-eabi\include\sys\string.h \
+ C:\Users\Tommaso\C++\Drone\lib/MahonyAHRS.h \
+ C:\Users\Tommaso\C++\Drone\lib/init.h

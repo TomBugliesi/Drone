@@ -37,6 +37,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.24.1/CMakeSystem.cmake"
   "elf2uf2/tmp/ELF2UF2Build-mkdirs.cmake"
   "pico-sdk/src/rp2_common/cyw43_driver/pioasm/tmp/PioasmBuild-mkdirs.cmake"
+  "C:/Users/Tommaso/C++/Drone/example_auto_set_url.cmake"
   "C:/Users/Tommaso/C++/Drone/lib/CMakeLists.txt"
   "C:/Users/Tommaso/C++/Drone/pico_sdk_import.cmake"
   "C:/Users/Tommaso/pico/pico-sdk/CMakeLists.txt"
@@ -241,4 +242,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/PioasmBuild.dir/DependInfo.cmake"
   "pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/DependInfo.cmake"
   "lib/CMakeFiles/pico_mpu9250.dir/DependInfo.cmake"
+  "lib/CMakeFiles/MahonyAHRS.dir/DependInfo.cmake"
+  "lib/CMakeFiles/init.dir/DependInfo.cmake"
   )

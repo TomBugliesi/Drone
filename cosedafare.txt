@@ -1,0 +1,8 @@
+
+// Modifica funzione calibrazione gyro, aggiungi output gyro reale a partire da raw data
+// Stesse cose per il magnetometro, calibrazione più complessa 
+// quindi testa il mahgdwick filter
+// da quaternioni ad angoli di eulero
+// quindi passa al modulo nrf24l01
+// quindi includi il modulo di controllo dei motori
+// quindi includi il pid. Poi si vola 

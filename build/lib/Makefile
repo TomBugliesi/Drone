@@ -129,12 +129,41 @@ pico_mpu9250/fast:
 	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\pico_mpu9250.dir\build.make lib/CMakeFiles/pico_mpu9250.dir/build
 .PHONY : pico_mpu9250/fast
 
+# Convenience name for target.
+lib/CMakeFiles/MahonyAHRS.dir/rule:
+	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lib/CMakeFiles/MahonyAHRS.dir/rule
+.PHONY : lib/CMakeFiles/MahonyAHRS.dir/rule
+
+# Convenience name for target.
+MahonyAHRS: lib/CMakeFiles/MahonyAHRS.dir/rule
+.PHONY : MahonyAHRS
+
+# fast build rule for target.
+MahonyAHRS/fast:
+	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\MahonyAHRS.dir\build.make lib/CMakeFiles/MahonyAHRS.dir/build
+.PHONY : MahonyAHRS/fast
+
+# Convenience name for target.
+lib/CMakeFiles/init.dir/rule:
+	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lib/CMakeFiles/init.dir/rule
+.PHONY : lib/CMakeFiles/init.dir/rule
+
+# Convenience name for target.
+init: lib/CMakeFiles/init.dir/rule
+.PHONY : init
+
+# fast build rule for target.
+init/fast:
+	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\init.dir\build.make lib/CMakeFiles/init.dir/build
+.PHONY : init/fast
+
 C_/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/critical_section.obj: C_/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
 .PHONY : C_/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/critical_section.obj
 
 # target to build an object file
 C_/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj:
 	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\pico_mpu9250.dir\build.make lib/CMakeFiles/pico_mpu9250.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
+	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\init.dir\build.make lib/CMakeFiles/init.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
 .PHONY : C_/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
 
 C_/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/critical_section.i: C_/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/critical_section.c.i
@@ -143,6 +172,7 @@ C_/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/critical_section.i: C_/Users
 # target to preprocess a source file
 C_/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/critical_section.c.i:
 	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\pico_mpu9250.dir\build.make lib/CMakeFiles/pico_mpu9250.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/critical_section.c.i
+	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\init.dir\build.make lib/CMakeFiles/init.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/critical_section.c.i
 .PHONY : C_/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/critical_section.c.i
 
 C_/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/critical_section.s: C_/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
@@ -151,6 +181,7 @@ C_/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/critical_section.s: C_/Users
 # target to generate assembly for a file
 C_/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/critical_section.c.s:
 	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\pico_mpu9250.dir\build.make lib/CMakeFiles/pico_mpu9250.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
+	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\init.dir\build.make lib/CMakeFiles/init.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
 .PHONY : C_/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
 
 C_/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/lock_core.obj: C_/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
@@ -159,6 +190,7 @@ C_/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/lock_core.obj: C_/Users/Tomm
 # target to build an object file
 C_/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj:
 	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\pico_mpu9250.dir\build.make lib/CMakeFiles/pico_mpu9250.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\init.dir\build.make lib/CMakeFiles/init.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
 .PHONY : C_/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
 
 C_/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/lock_core.i: C_/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/lock_core.c.i
@@ -167,6 +199,7 @@ C_/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/lock_core.i: C_/Users/Tommas
 # target to preprocess a source file
 C_/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/lock_core.c.i:
 	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\pico_mpu9250.dir\build.make lib/CMakeFiles/pico_mpu9250.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/lock_core.c.i
+	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\init.dir\build.make lib/CMakeFiles/init.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/lock_core.c.i
 .PHONY : C_/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/lock_core.c.i
 
 C_/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/lock_core.s: C_/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
@@ -175,6 +208,7 @@ C_/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/lock_core.s: C_/Users/Tommas
 # target to generate assembly for a file
 C_/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/lock_core.c.s:
 	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\pico_mpu9250.dir\build.make lib/CMakeFiles/pico_mpu9250.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
+	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\init.dir\build.make lib/CMakeFiles/init.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
 .PHONY : C_/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
 
 C_/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/mutex.obj: C_/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
@@ -183,6 +217,7 @@ C_/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/mutex.obj: C_/Users/Tommaso/
 # target to build an object file
 C_/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/mutex.c.obj:
 	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\pico_mpu9250.dir\build.make lib/CMakeFiles/pico_mpu9250.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\init.dir\build.make lib/CMakeFiles/init.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
 .PHONY : C_/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
 
 C_/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/mutex.i: C_/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/mutex.c.i
@@ -191,6 +226,7 @@ C_/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/mutex.i: C_/Users/Tommaso/pi
 # target to preprocess a source file
 C_/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/mutex.c.i:
 	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\pico_mpu9250.dir\build.make lib/CMakeFiles/pico_mpu9250.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/mutex.c.i
+	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\init.dir\build.make lib/CMakeFiles/init.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/mutex.c.i
 .PHONY : C_/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/mutex.c.i
 
 C_/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/mutex.s: C_/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/mutex.c.s
@@ -199,6 +235,7 @@ C_/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/mutex.s: C_/Users/Tommaso/pi
 # target to generate assembly for a file
 C_/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/mutex.c.s:
 	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\pico_mpu9250.dir\build.make lib/CMakeFiles/pico_mpu9250.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/mutex.c.s
+	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\init.dir\build.make lib/CMakeFiles/init.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/mutex.c.s
 .PHONY : C_/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/mutex.c.s
 
 C_/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/sem.obj: C_/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/sem.c.obj
@@ -207,6 +244,7 @@ C_/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/sem.obj: C_/Users/Tommaso/pi
 # target to build an object file
 C_/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/sem.c.obj:
 	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\pico_mpu9250.dir\build.make lib/CMakeFiles/pico_mpu9250.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/sem.c.obj
+	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\init.dir\build.make lib/CMakeFiles/init.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/sem.c.obj
 .PHONY : C_/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/sem.c.obj
 
 C_/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/sem.i: C_/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/sem.c.i
@@ -215,6 +253,7 @@ C_/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/sem.i: C_/Users/Tommaso/pico
 # target to preprocess a source file
 C_/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/sem.c.i:
 	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\pico_mpu9250.dir\build.make lib/CMakeFiles/pico_mpu9250.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/sem.c.i
+	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\init.dir\build.make lib/CMakeFiles/init.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/sem.c.i
 .PHONY : C_/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/sem.c.i
 
 C_/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/sem.s: C_/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/sem.c.s
@@ -223,6 +262,7 @@ C_/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/sem.s: C_/Users/Tommaso/pico
 # target to generate assembly for a file
 C_/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/sem.c.s:
 	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\pico_mpu9250.dir\build.make lib/CMakeFiles/pico_mpu9250.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/sem.c.s
+	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\init.dir\build.make lib/CMakeFiles/init.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/sem.c.s
 .PHONY : C_/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/sem.c.s
 
 C_/Users/Tommaso/pico/pico-sdk/src/common/pico_time/time.obj: C_/Users/Tommaso/pico/pico-sdk/src/common/pico_time/time.c.obj
@@ -231,6 +271,7 @@ C_/Users/Tommaso/pico/pico-sdk/src/common/pico_time/time.obj: C_/Users/Tommaso/p
 # target to build an object file
 C_/Users/Tommaso/pico/pico-sdk/src/common/pico_time/time.c.obj:
 	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\pico_mpu9250.dir\build.make lib/CMakeFiles/pico_mpu9250.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_time/time.c.obj
+	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\init.dir\build.make lib/CMakeFiles/init.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_time/time.c.obj
 .PHONY : C_/Users/Tommaso/pico/pico-sdk/src/common/pico_time/time.c.obj
 
 C_/Users/Tommaso/pico/pico-sdk/src/common/pico_time/time.i: C_/Users/Tommaso/pico/pico-sdk/src/common/pico_time/time.c.i
@@ -239,6 +280,7 @@ C_/Users/Tommaso/pico/pico-sdk/src/common/pico_time/time.i: C_/Users/Tommaso/pic
 # target to preprocess a source file
 C_/Users/Tommaso/pico/pico-sdk/src/common/pico_time/time.c.i:
 	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\pico_mpu9250.dir\build.make lib/CMakeFiles/pico_mpu9250.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_time/time.c.i
+	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\init.dir\build.make lib/CMakeFiles/init.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_time/time.c.i
 .PHONY : C_/Users/Tommaso/pico/pico-sdk/src/common/pico_time/time.c.i
 
 C_/Users/Tommaso/pico/pico-sdk/src/common/pico_time/time.s: C_/Users/Tommaso/pico/pico-sdk/src/common/pico_time/time.c.s
@@ -247,6 +289,7 @@ C_/Users/Tommaso/pico/pico-sdk/src/common/pico_time/time.s: C_/Users/Tommaso/pic
 # target to generate assembly for a file
 C_/Users/Tommaso/pico/pico-sdk/src/common/pico_time/time.c.s:
 	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\pico_mpu9250.dir\build.make lib/CMakeFiles/pico_mpu9250.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_time/time.c.s
+	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\init.dir\build.make lib/CMakeFiles/init.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_time/time.c.s
 .PHONY : C_/Users/Tommaso/pico/pico-sdk/src/common/pico_time/time.c.s
 
 C_/Users/Tommaso/pico/pico-sdk/src/common/pico_time/timeout_helper.obj: C_/Users/Tommaso/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
@@ -255,6 +298,7 @@ C_/Users/Tommaso/pico/pico-sdk/src/common/pico_time/timeout_helper.obj: C_/Users
 # target to build an object file
 C_/Users/Tommaso/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj:
 	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\pico_mpu9250.dir\build.make lib/CMakeFiles/pico_mpu9250.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
+	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\init.dir\build.make lib/CMakeFiles/init.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
 .PHONY : C_/Users/Tommaso/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
 
 C_/Users/Tommaso/pico/pico-sdk/src/common/pico_time/timeout_helper.i: C_/Users/Tommaso/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
@@ -263,6 +307,7 @@ C_/Users/Tommaso/pico/pico-sdk/src/common/pico_time/timeout_helper.i: C_/Users/T
 # target to preprocess a source file
 C_/Users/Tommaso/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i:
 	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\pico_mpu9250.dir\build.make lib/CMakeFiles/pico_mpu9250.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
+	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\init.dir\build.make lib/CMakeFiles/init.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
 .PHONY : C_/Users/Tommaso/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
 
 C_/Users/Tommaso/pico/pico-sdk/src/common/pico_time/timeout_helper.s: C_/Users/Tommaso/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
@@ -271,6 +316,7 @@ C_/Users/Tommaso/pico/pico-sdk/src/common/pico_time/timeout_helper.s: C_/Users/T
 # target to generate assembly for a file
 C_/Users/Tommaso/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s:
 	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\pico_mpu9250.dir\build.make lib/CMakeFiles/pico_mpu9250.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
+	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\init.dir\build.make lib/CMakeFiles/init.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
 .PHONY : C_/Users/Tommaso/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
 
 C_/Users/Tommaso/pico/pico-sdk/src/common/pico_util/datetime.obj: C_/Users/Tommaso/pico/pico-sdk/src/common/pico_util/datetime.c.obj
@@ -279,6 +325,7 @@ C_/Users/Tommaso/pico/pico-sdk/src/common/pico_util/datetime.obj: C_/Users/Tomma
 # target to build an object file
 C_/Users/Tommaso/pico/pico-sdk/src/common/pico_util/datetime.c.obj:
 	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\pico_mpu9250.dir\build.make lib/CMakeFiles/pico_mpu9250.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_util/datetime.c.obj
+	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\init.dir\build.make lib/CMakeFiles/init.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_util/datetime.c.obj
 .PHONY : C_/Users/Tommaso/pico/pico-sdk/src/common/pico_util/datetime.c.obj
 
 C_/Users/Tommaso/pico/pico-sdk/src/common/pico_util/datetime.i: C_/Users/Tommaso/pico/pico-sdk/src/common/pico_util/datetime.c.i
@@ -287,6 +334,7 @@ C_/Users/Tommaso/pico/pico-sdk/src/common/pico_util/datetime.i: C_/Users/Tommaso
 # target to preprocess a source file
 C_/Users/Tommaso/pico/pico-sdk/src/common/pico_util/datetime.c.i:
 	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\pico_mpu9250.dir\build.make lib/CMakeFiles/pico_mpu9250.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_util/datetime.c.i
+	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\init.dir\build.make lib/CMakeFiles/init.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_util/datetime.c.i
 .PHONY : C_/Users/Tommaso/pico/pico-sdk/src/common/pico_util/datetime.c.i
 
 C_/Users/Tommaso/pico/pico-sdk/src/common/pico_util/datetime.s: C_/Users/Tommaso/pico/pico-sdk/src/common/pico_util/datetime.c.s
@@ -295,6 +343,7 @@ C_/Users/Tommaso/pico/pico-sdk/src/common/pico_util/datetime.s: C_/Users/Tommaso
 # target to generate assembly for a file
 C_/Users/Tommaso/pico/pico-sdk/src/common/pico_util/datetime.c.s:
 	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\pico_mpu9250.dir\build.make lib/CMakeFiles/pico_mpu9250.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_util/datetime.c.s
+	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\init.dir\build.make lib/CMakeFiles/init.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_util/datetime.c.s
 .PHONY : C_/Users/Tommaso/pico/pico-sdk/src/common/pico_util/datetime.c.s
 
 C_/Users/Tommaso/pico/pico-sdk/src/common/pico_util/pheap.obj: C_/Users/Tommaso/pico/pico-sdk/src/common/pico_util/pheap.c.obj
@@ -303,6 +352,7 @@ C_/Users/Tommaso/pico/pico-sdk/src/common/pico_util/pheap.obj: C_/Users/Tommaso/
 # target to build an object file
 C_/Users/Tommaso/pico/pico-sdk/src/common/pico_util/pheap.c.obj:
 	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\pico_mpu9250.dir\build.make lib/CMakeFiles/pico_mpu9250.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\init.dir\build.make lib/CMakeFiles/init.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_util/pheap.c.obj
 .PHONY : C_/Users/Tommaso/pico/pico-sdk/src/common/pico_util/pheap.c.obj
 
 C_/Users/Tommaso/pico/pico-sdk/src/common/pico_util/pheap.i: C_/Users/Tommaso/pico/pico-sdk/src/common/pico_util/pheap.c.i
@@ -311,6 +361,7 @@ C_/Users/Tommaso/pico/pico-sdk/src/common/pico_util/pheap.i: C_/Users/Tommaso/pi
 # target to preprocess a source file
 C_/Users/Tommaso/pico/pico-sdk/src/common/pico_util/pheap.c.i:
 	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\pico_mpu9250.dir\build.make lib/CMakeFiles/pico_mpu9250.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_util/pheap.c.i
+	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\init.dir\build.make lib/CMakeFiles/init.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_util/pheap.c.i
 .PHONY : C_/Users/Tommaso/pico/pico-sdk/src/common/pico_util/pheap.c.i
 
 C_/Users/Tommaso/pico/pico-sdk/src/common/pico_util/pheap.s: C_/Users/Tommaso/pico/pico-sdk/src/common/pico_util/pheap.c.s
@@ -319,6 +370,7 @@ C_/Users/Tommaso/pico/pico-sdk/src/common/pico_util/pheap.s: C_/Users/Tommaso/pi
 # target to generate assembly for a file
 C_/Users/Tommaso/pico/pico-sdk/src/common/pico_util/pheap.c.s:
 	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\pico_mpu9250.dir\build.make lib/CMakeFiles/pico_mpu9250.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_util/pheap.c.s
+	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\init.dir\build.make lib/CMakeFiles/init.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_util/pheap.c.s
 .PHONY : C_/Users/Tommaso/pico/pico-sdk/src/common/pico_util/pheap.c.s
 
 C_/Users/Tommaso/pico/pico-sdk/src/common/pico_util/queue.obj: C_/Users/Tommaso/pico/pico-sdk/src/common/pico_util/queue.c.obj
@@ -327,6 +379,7 @@ C_/Users/Tommaso/pico/pico-sdk/src/common/pico_util/queue.obj: C_/Users/Tommaso/
 # target to build an object file
 C_/Users/Tommaso/pico/pico-sdk/src/common/pico_util/queue.c.obj:
 	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\pico_mpu9250.dir\build.make lib/CMakeFiles/pico_mpu9250.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_util/queue.c.obj
+	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\init.dir\build.make lib/CMakeFiles/init.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_util/queue.c.obj
 .PHONY : C_/Users/Tommaso/pico/pico-sdk/src/common/pico_util/queue.c.obj
 
 C_/Users/Tommaso/pico/pico-sdk/src/common/pico_util/queue.i: C_/Users/Tommaso/pico/pico-sdk/src/common/pico_util/queue.c.i
@@ -335,6 +388,7 @@ C_/Users/Tommaso/pico/pico-sdk/src/common/pico_util/queue.i: C_/Users/Tommaso/pi
 # target to preprocess a source file
 C_/Users/Tommaso/pico/pico-sdk/src/common/pico_util/queue.c.i:
 	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\pico_mpu9250.dir\build.make lib/CMakeFiles/pico_mpu9250.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_util/queue.c.i
+	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\init.dir\build.make lib/CMakeFiles/init.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_util/queue.c.i
 .PHONY : C_/Users/Tommaso/pico/pico-sdk/src/common/pico_util/queue.c.i
 
 C_/Users/Tommaso/pico/pico-sdk/src/common/pico_util/queue.s: C_/Users/Tommaso/pico/pico-sdk/src/common/pico_util/queue.c.s
@@ -343,6 +397,7 @@ C_/Users/Tommaso/pico/pico-sdk/src/common/pico_util/queue.s: C_/Users/Tommaso/pi
 # target to generate assembly for a file
 C_/Users/Tommaso/pico/pico-sdk/src/common/pico_util/queue.c.s:
 	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\pico_mpu9250.dir\build.make lib/CMakeFiles/pico_mpu9250.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_util/queue.c.s
+	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\init.dir\build.make lib/CMakeFiles/init.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_util/queue.c.s
 .PHONY : C_/Users/Tommaso/pico/pico-sdk/src/common/pico_util/queue.c.s
 
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_claim/claim.obj: C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
@@ -351,6 +406,7 @@ C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_claim/claim.obj: C_/Users
 # target to build an object file
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj:
 	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\pico_mpu9250.dir\build.make lib/CMakeFiles/pico_mpu9250.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\init.dir\build.make lib/CMakeFiles/init.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
 .PHONY : C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
 
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_claim/claim.i: C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
@@ -359,6 +415,7 @@ C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_claim/claim.i: C_/Users/T
 # target to preprocess a source file
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i:
 	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\pico_mpu9250.dir\build.make lib/CMakeFiles/pico_mpu9250.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
+	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\init.dir\build.make lib/CMakeFiles/init.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
 .PHONY : C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
 
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_claim/claim.s: C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
@@ -367,6 +424,7 @@ C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_claim/claim.s: C_/Users/T
 # target to generate assembly for a file
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s:
 	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\pico_mpu9250.dir\build.make lib/CMakeFiles/pico_mpu9250.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
+	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\init.dir\build.make lib/CMakeFiles/init.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
 .PHONY : C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
 
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.obj: C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
@@ -375,6 +433,7 @@ C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.obj: C_/Use
 # target to build an object file
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj:
 	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\pico_mpu9250.dir\build.make lib/CMakeFiles/pico_mpu9250.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\init.dir\build.make lib/CMakeFiles/init.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
 .PHONY : C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
 
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.i: C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
@@ -383,6 +442,7 @@ C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.i: C_/Users
 # target to preprocess a source file
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i:
 	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\pico_mpu9250.dir\build.make lib/CMakeFiles/pico_mpu9250.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
+	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\init.dir\build.make lib/CMakeFiles/init.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
 .PHONY : C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
 
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.s: C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
@@ -391,6 +451,7 @@ C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.s: C_/Users
 # target to generate assembly for a file
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s:
 	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\pico_mpu9250.dir\build.make lib/CMakeFiles/pico_mpu9250.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
+	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\init.dir\build.make lib/CMakeFiles/init.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
 .PHONY : C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
 
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_divider/divider.obj: C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
@@ -399,6 +460,7 @@ C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_divider/divider.obj: C_/U
 # target to build an object file
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj:
 	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\pico_mpu9250.dir\build.make lib/CMakeFiles/pico_mpu9250.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
+	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\init.dir\build.make lib/CMakeFiles/init.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
 .PHONY : C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
 
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.obj: C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
@@ -407,6 +469,7 @@ C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.obj: C_/Users/T
 # target to build an object file
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj:
 	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\pico_mpu9250.dir\build.make lib/CMakeFiles/pico_mpu9250.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\init.dir\build.make lib/CMakeFiles/init.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
 .PHONY : C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
 
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.i: C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
@@ -415,6 +478,7 @@ C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.i: C_/Users/Tom
 # target to preprocess a source file
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i:
 	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\pico_mpu9250.dir\build.make lib/CMakeFiles/pico_mpu9250.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
+	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\init.dir\build.make lib/CMakeFiles/init.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
 .PHONY : C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
 
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.s: C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
@@ -423,6 +487,7 @@ C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.s: C_/Users/Tom
 # target to generate assembly for a file
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s:
 	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\pico_mpu9250.dir\build.make lib/CMakeFiles/pico_mpu9250.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
+	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\init.dir\build.make lib/CMakeFiles/init.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
 .PHONY : C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
 
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_irq/irq.obj: C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
@@ -431,6 +496,7 @@ C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_irq/irq.obj: C_/Users/Tom
 # target to build an object file
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj:
 	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\pico_mpu9250.dir\build.make lib/CMakeFiles/pico_mpu9250.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\init.dir\build.make lib/CMakeFiles/init.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
 .PHONY : C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
 
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_irq/irq.i: C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
@@ -439,6 +505,7 @@ C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_irq/irq.i: C_/Users/Tomma
 # target to preprocess a source file
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i:
 	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\pico_mpu9250.dir\build.make lib/CMakeFiles/pico_mpu9250.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
+	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\init.dir\build.make lib/CMakeFiles/init.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
 .PHONY : C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
 
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_irq/irq.s: C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
@@ -447,6 +514,7 @@ C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_irq/irq.s: C_/Users/Tomma
 # target to generate assembly for a file
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s:
 	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\pico_mpu9250.dir\build.make lib/CMakeFiles/pico_mpu9250.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
+	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\init.dir\build.make lib/CMakeFiles/init.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
 .PHONY : C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
 
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.obj: C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
@@ -455,6 +523,7 @@ C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.obj
 # target to build an object file
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj:
 	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\pico_mpu9250.dir\build.make lib/CMakeFiles/pico_mpu9250.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
+	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\init.dir\build.make lib/CMakeFiles/init.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
 .PHONY : C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
 
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_pll/pll.obj: C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
@@ -463,6 +532,7 @@ C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_pll/pll.obj: C_/Users/Tom
 # target to build an object file
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj:
 	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\pico_mpu9250.dir\build.make lib/CMakeFiles/pico_mpu9250.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\init.dir\build.make lib/CMakeFiles/init.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
 .PHONY : C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
 
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_pll/pll.i: C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
@@ -471,6 +541,7 @@ C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_pll/pll.i: C_/Users/Tomma
 # target to preprocess a source file
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i:
 	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\pico_mpu9250.dir\build.make lib/CMakeFiles/pico_mpu9250.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
+	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\init.dir\build.make lib/CMakeFiles/init.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
 .PHONY : C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
 
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_pll/pll.s: C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
@@ -479,6 +550,7 @@ C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_pll/pll.s: C_/Users/Tomma
 # target to generate assembly for a file
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s:
 	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\pico_mpu9250.dir\build.make lib/CMakeFiles/pico_mpu9250.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
+	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\init.dir\build.make lib/CMakeFiles/init.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
 .PHONY : C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
 
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_spi/spi.obj: C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
@@ -487,6 +559,7 @@ C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_spi/spi.obj: C_/Users/Tom
 # target to build an object file
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj:
 	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\pico_mpu9250.dir\build.make lib/CMakeFiles/pico_mpu9250.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
+	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\init.dir\build.make lib/CMakeFiles/init.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
 .PHONY : C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
 
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_spi/spi.i: C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.i
@@ -495,6 +568,7 @@ C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_spi/spi.i: C_/Users/Tomma
 # target to preprocess a source file
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.i:
 	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\pico_mpu9250.dir\build.make lib/CMakeFiles/pico_mpu9250.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.i
+	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\init.dir\build.make lib/CMakeFiles/init.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.i
 .PHONY : C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.i
 
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_spi/spi.s: C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.s
@@ -503,6 +577,7 @@ C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_spi/spi.s: C_/Users/Tomma
 # target to generate assembly for a file
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.s:
 	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\pico_mpu9250.dir\build.make lib/CMakeFiles/pico_mpu9250.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.s
+	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\init.dir\build.make lib/CMakeFiles/init.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.s
 .PHONY : C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.s
 
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_sync/sync.obj: C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
@@ -511,6 +586,7 @@ C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_sync/sync.obj: C_/Users/T
 # target to build an object file
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj:
 	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\pico_mpu9250.dir\build.make lib/CMakeFiles/pico_mpu9250.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\init.dir\build.make lib/CMakeFiles/init.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
 .PHONY : C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
 
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_sync/sync.i: C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
@@ -519,6 +595,7 @@ C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_sync/sync.i: C_/Users/Tom
 # target to preprocess a source file
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i:
 	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\pico_mpu9250.dir\build.make lib/CMakeFiles/pico_mpu9250.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
+	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\init.dir\build.make lib/CMakeFiles/init.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
 .PHONY : C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
 
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_sync/sync.s: C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
@@ -527,6 +604,7 @@ C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_sync/sync.s: C_/Users/Tom
 # target to generate assembly for a file
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s:
 	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\pico_mpu9250.dir\build.make lib/CMakeFiles/pico_mpu9250.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
+	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\init.dir\build.make lib/CMakeFiles/init.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
 .PHONY : C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
 
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_timer/timer.obj: C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
@@ -535,6 +613,7 @@ C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_timer/timer.obj: C_/Users
 # target to build an object file
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj:
 	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\pico_mpu9250.dir\build.make lib/CMakeFiles/pico_mpu9250.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\init.dir\build.make lib/CMakeFiles/init.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
 .PHONY : C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
 
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_timer/timer.i: C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
@@ -543,6 +622,7 @@ C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_timer/timer.i: C_/Users/T
 # target to preprocess a source file
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i:
 	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\pico_mpu9250.dir\build.make lib/CMakeFiles/pico_mpu9250.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
+	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\init.dir\build.make lib/CMakeFiles/init.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
 .PHONY : C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
 
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_timer/timer.s: C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
@@ -551,6 +631,7 @@ C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_timer/timer.s: C_/Users/T
 # target to generate assembly for a file
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s:
 	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\pico_mpu9250.dir\build.make lib/CMakeFiles/pico_mpu9250.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
+	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\init.dir\build.make lib/CMakeFiles/init.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
 .PHONY : C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
 
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_uart/uart.obj: C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
@@ -559,6 +640,7 @@ C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_uart/uart.obj: C_/Users/T
 # target to build an object file
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj:
 	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\pico_mpu9250.dir\build.make lib/CMakeFiles/pico_mpu9250.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\init.dir\build.make lib/CMakeFiles/init.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
 .PHONY : C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
 
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_uart/uart.i: C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
@@ -567,6 +649,7 @@ C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_uart/uart.i: C_/Users/Tom
 # target to preprocess a source file
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i:
 	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\pico_mpu9250.dir\build.make lib/CMakeFiles/pico_mpu9250.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
+	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\init.dir\build.make lib/CMakeFiles/init.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
 .PHONY : C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
 
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_uart/uart.s: C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
@@ -575,6 +658,7 @@ C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_uart/uart.s: C_/Users/Tom
 # target to generate assembly for a file
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s:
 	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\pico_mpu9250.dir\build.make lib/CMakeFiles/pico_mpu9250.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
+	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\init.dir\build.make lib/CMakeFiles/init.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
 .PHONY : C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
 
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.obj: C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
@@ -583,6 +667,7 @@ C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.obj: C_/Users/T
 # target to build an object file
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj:
 	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\pico_mpu9250.dir\build.make lib/CMakeFiles/pico_mpu9250.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
+	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\init.dir\build.make lib/CMakeFiles/init.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
 .PHONY : C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
 
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.i: C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
@@ -591,6 +676,7 @@ C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.i: C_/Users/Tom
 # target to preprocess a source file
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i:
 	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\pico_mpu9250.dir\build.make lib/CMakeFiles/pico_mpu9250.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
+	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\init.dir\build.make lib/CMakeFiles/init.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
 .PHONY : C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
 
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.s: C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
@@ -599,6 +685,7 @@ C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.s: C_/Users/Tom
 # target to generate assembly for a file
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s:
 	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\pico_mpu9250.dir\build.make lib/CMakeFiles/pico_mpu9250.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
+	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\init.dir\build.make lib/CMakeFiles/init.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
 .PHONY : C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
 
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.obj: C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
@@ -607,6 +694,7 @@ C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.obj: C_
 # target to build an object file
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj:
 	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\pico_mpu9250.dir\build.make lib/CMakeFiles/pico_mpu9250.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\init.dir\build.make lib/CMakeFiles/init.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
 .PHONY : C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
 
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.i: C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
@@ -615,6 +703,7 @@ C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.i: C_/U
 # target to preprocess a source file
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i:
 	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\pico_mpu9250.dir\build.make lib/CMakeFiles/pico_mpu9250.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
+	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\init.dir\build.make lib/CMakeFiles/init.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
 .PHONY : C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
 
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.s: C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
@@ -623,6 +712,7 @@ C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.s: C_/U
 # target to generate assembly for a file
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s:
 	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\pico_mpu9250.dir\build.make lib/CMakeFiles/pico_mpu9250.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
+	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\init.dir\build.make lib/CMakeFiles/init.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
 .PHONY : C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
 
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.obj: C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
@@ -631,6 +721,7 @@ C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.obj: C_/Users/T
 # target to build an object file
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj:
 	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\pico_mpu9250.dir\build.make lib/CMakeFiles/pico_mpu9250.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\init.dir\build.make lib/CMakeFiles/init.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
 .PHONY : C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
 
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.i: C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
@@ -639,6 +730,7 @@ C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.i: C_/Users/Tom
 # target to preprocess a source file
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i:
 	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\pico_mpu9250.dir\build.make lib/CMakeFiles/pico_mpu9250.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
+	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\init.dir\build.make lib/CMakeFiles/init.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
 .PHONY : C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
 
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.s: C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
@@ -647,6 +739,7 @@ C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.s: C_/Users/Tom
 # target to generate assembly for a file
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s:
 	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\pico_mpu9250.dir\build.make lib/CMakeFiles/pico_mpu9250.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
+	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\init.dir\build.make lib/CMakeFiles/init.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
 .PHONY : C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
 
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.obj: C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
@@ -655,6 +748,7 @@ C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.obj: C_
 # target to build an object file
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj:
 	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\pico_mpu9250.dir\build.make lib/CMakeFiles/pico_mpu9250.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\init.dir\build.make lib/CMakeFiles/init.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
 .PHONY : C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
 
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.obj: C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
@@ -663,6 +757,7 @@ C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.obj: C_/Users
 # target to build an object file
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj:
 	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\pico_mpu9250.dir\build.make lib/CMakeFiles/pico_mpu9250.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\init.dir\build.make lib/CMakeFiles/init.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
 .PHONY : C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
 
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.i: C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
@@ -671,6 +766,7 @@ C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.i: C_/Users/T
 # target to preprocess a source file
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i:
 	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\pico_mpu9250.dir\build.make lib/CMakeFiles/pico_mpu9250.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
+	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\init.dir\build.make lib/CMakeFiles/init.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
 .PHONY : C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
 
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.s: C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
@@ -679,6 +775,7 @@ C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.s: C_/Users/T
 # target to generate assembly for a file
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s:
 	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\pico_mpu9250.dir\build.make lib/CMakeFiles/pico_mpu9250.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
+	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\init.dir\build.make lib/CMakeFiles/init.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
 .PHONY : C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
 
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_divider/divider.obj: C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
@@ -687,6 +784,7 @@ C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_divider/divider.obj: C_/Users
 # target to build an object file
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj:
 	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\pico_mpu9250.dir\build.make lib/CMakeFiles/pico_mpu9250.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\init.dir\build.make lib/CMakeFiles/init.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
 .PHONY : C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
 
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.obj: C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
@@ -695,6 +793,7 @@ C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.obj: C_/U
 # target to build an object file
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj:
 	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\pico_mpu9250.dir\build.make lib/CMakeFiles/pico_mpu9250.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\init.dir\build.make lib/CMakeFiles/init.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
 .PHONY : C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
 
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.obj: C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
@@ -703,6 +802,7 @@ C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.obj: C
 # target to build an object file
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj:
 	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\pico_mpu9250.dir\build.make lib/CMakeFiles/pico_mpu9250.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\init.dir\build.make lib/CMakeFiles/init.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
 .PHONY : C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
 
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.i: C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
@@ -711,6 +811,7 @@ C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.i: C_/
 # target to preprocess a source file
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i:
 	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\pico_mpu9250.dir\build.make lib/CMakeFiles/pico_mpu9250.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
+	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\init.dir\build.make lib/CMakeFiles/init.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
 .PHONY : C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
 
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.s: C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
@@ -719,6 +820,7 @@ C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.s: C_/
 # target to generate assembly for a file
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s:
 	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\pico_mpu9250.dir\build.make lib/CMakeFiles/pico_mpu9250.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
+	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\init.dir\build.make lib/CMakeFiles/init.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
 .PHONY : C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
 
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_double/double_math.obj: C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
@@ -727,6 +829,7 @@ C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_double/double_math.obj: C_/Us
 # target to build an object file
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj:
 	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\pico_mpu9250.dir\build.make lib/CMakeFiles/pico_mpu9250.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\init.dir\build.make lib/CMakeFiles/init.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
 .PHONY : C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
 
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_double/double_math.i: C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i
@@ -735,6 +838,7 @@ C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_double/double_math.i: C_/User
 # target to preprocess a source file
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i:
 	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\pico_mpu9250.dir\build.make lib/CMakeFiles/pico_mpu9250.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i
+	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\init.dir\build.make lib/CMakeFiles/init.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i
 .PHONY : C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i
 
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_double/double_math.s: C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
@@ -743,6 +847,7 @@ C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_double/double_math.s: C_/User
 # target to generate assembly for a file
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s:
 	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\pico_mpu9250.dir\build.make lib/CMakeFiles/pico_mpu9250.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
+	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\init.dir\build.make lib/CMakeFiles/init.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
 .PHONY : C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
 
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.obj: C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
@@ -751,6 +856,7 @@ C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.obj
 # target to build an object file
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj:
 	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\pico_mpu9250.dir\build.make lib/CMakeFiles/pico_mpu9250.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\init.dir\build.make lib/CMakeFiles/init.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
 .PHONY : C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
 
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.obj: C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
@@ -759,6 +865,7 @@ C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.obj: C_/Use
 # target to build an object file
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj:
 	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\pico_mpu9250.dir\build.make lib/CMakeFiles/pico_mpu9250.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\init.dir\build.make lib/CMakeFiles/init.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
 .PHONY : C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
 
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.obj: C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
@@ -767,6 +874,7 @@ C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.obj: C_/
 # target to build an object file
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj:
 	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\pico_mpu9250.dir\build.make lib/CMakeFiles/pico_mpu9250.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\init.dir\build.make lib/CMakeFiles/init.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
 .PHONY : C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
 
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.i: C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
@@ -775,6 +883,7 @@ C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.i: C_/Us
 # target to preprocess a source file
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i:
 	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\pico_mpu9250.dir\build.make lib/CMakeFiles/pico_mpu9250.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
+	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\init.dir\build.make lib/CMakeFiles/init.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
 .PHONY : C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
 
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.s: C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
@@ -783,6 +892,7 @@ C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.s: C_/Us
 # target to generate assembly for a file
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s:
 	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\pico_mpu9250.dir\build.make lib/CMakeFiles/pico_mpu9250.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
+	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\init.dir\build.make lib/CMakeFiles/init.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
 .PHONY : C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
 
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_float/float_math.obj: C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
@@ -791,6 +901,7 @@ C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_float/float_math.obj: C_/User
 # target to build an object file
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj:
 	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\pico_mpu9250.dir\build.make lib/CMakeFiles/pico_mpu9250.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
+	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\init.dir\build.make lib/CMakeFiles/init.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
 .PHONY : C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
 
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_float/float_math.i: C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i
@@ -799,6 +910,7 @@ C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_float/float_math.i: C_/Users/
 # target to preprocess a source file
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i:
 	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\pico_mpu9250.dir\build.make lib/CMakeFiles/pico_mpu9250.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i
+	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\init.dir\build.make lib/CMakeFiles/init.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i
 .PHONY : C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i
 
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_float/float_math.s: C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
@@ -807,6 +919,7 @@ C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_float/float_math.s: C_/Users/
 # target to generate assembly for a file
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s:
 	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\pico_mpu9250.dir\build.make lib/CMakeFiles/pico_mpu9250.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
+	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\init.dir\build.make lib/CMakeFiles/init.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
 .PHONY : C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
 
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.obj: C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
@@ -815,6 +928,7 @@ C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.obj: 
 # target to build an object file
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj:
 	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\pico_mpu9250.dir\build.make lib/CMakeFiles/pico_mpu9250.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\init.dir\build.make lib/CMakeFiles/init.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
 .PHONY : C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
 
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.obj: C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
@@ -823,6 +937,7 @@ C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeab
 # target to build an object file
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj:
 	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\pico_mpu9250.dir\build.make lib/CMakeFiles/pico_mpu9250.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\init.dir\build.make lib/CMakeFiles/init.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
 .PHONY : C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
 
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.obj: C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
@@ -831,6 +946,7 @@ C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.obj: C_/Us
 # target to build an object file
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj:
 	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\pico_mpu9250.dir\build.make lib/CMakeFiles/pico_mpu9250.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
+	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\init.dir\build.make lib/CMakeFiles/init.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
 .PHONY : C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
 
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.i: C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
@@ -839,6 +955,7 @@ C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.i: C_/User
 # target to preprocess a source file
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i:
 	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\pico_mpu9250.dir\build.make lib/CMakeFiles/pico_mpu9250.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
+	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\init.dir\build.make lib/CMakeFiles/init.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
 .PHONY : C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
 
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.s: C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
@@ -847,6 +964,7 @@ C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.s: C_/User
 # target to generate assembly for a file
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s:
 	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\pico_mpu9250.dir\build.make lib/CMakeFiles/pico_mpu9250.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
+	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\init.dir\build.make lib/CMakeFiles/init.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
 .PHONY : C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
 
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.obj: C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
@@ -855,6 +973,7 @@ C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.obj: C_
 # target to build an object file
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj:
 	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\pico_mpu9250.dir\build.make lib/CMakeFiles/pico_mpu9250.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\init.dir\build.make lib/CMakeFiles/init.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
 .PHONY : C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
 
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_platform/platform.obj: C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
@@ -863,6 +982,7 @@ C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_platform/platform.obj: C_/Use
 # target to build an object file
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj:
 	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\pico_mpu9250.dir\build.make lib/CMakeFiles/pico_mpu9250.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\init.dir\build.make lib/CMakeFiles/init.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
 .PHONY : C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
 
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_platform/platform.i: C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i
@@ -871,6 +991,7 @@ C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_platform/platform.i: C_/Users
 # target to preprocess a source file
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i:
 	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\pico_mpu9250.dir\build.make lib/CMakeFiles/pico_mpu9250.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i
+	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\init.dir\build.make lib/CMakeFiles/init.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i
 .PHONY : C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i
 
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_platform/platform.s: C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s
@@ -879,6 +1000,7 @@ C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_platform/platform.s: C_/Users
 # target to generate assembly for a file
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s:
 	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\pico_mpu9250.dir\build.make lib/CMakeFiles/pico_mpu9250.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s
+	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\init.dir\build.make lib/CMakeFiles/init.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s
 .PHONY : C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s
 
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_printf/printf.obj: C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
@@ -887,6 +1009,7 @@ C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_printf/printf.obj: C_/Users/T
 # target to build an object file
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj:
 	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\pico_mpu9250.dir\build.make lib/CMakeFiles/pico_mpu9250.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\init.dir\build.make lib/CMakeFiles/init.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
 .PHONY : C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
 
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_printf/printf.i: C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
@@ -895,6 +1018,7 @@ C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_printf/printf.i: C_/Users/Tom
 # target to preprocess a source file
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i:
 	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\pico_mpu9250.dir\build.make lib/CMakeFiles/pico_mpu9250.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
+	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\init.dir\build.make lib/CMakeFiles/init.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
 .PHONY : C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
 
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_printf/printf.s: C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
@@ -903,6 +1027,7 @@ C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_printf/printf.s: C_/Users/Tom
 # target to generate assembly for a file
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s:
 	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\pico_mpu9250.dir\build.make lib/CMakeFiles/pico_mpu9250.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
+	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\init.dir\build.make lib/CMakeFiles/init.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
 .PHONY : C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
 
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.obj: C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
@@ -911,6 +1036,7 @@ C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.obj: C_/Users
 # target to build an object file
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj:
 	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\pico_mpu9250.dir\build.make lib/CMakeFiles/pico_mpu9250.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\init.dir\build.make lib/CMakeFiles/init.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
 .PHONY : C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
 
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.i: C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
@@ -919,6 +1045,7 @@ C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.i: C_/Users/T
 # target to preprocess a source file
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i:
 	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\pico_mpu9250.dir\build.make lib/CMakeFiles/pico_mpu9250.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
+	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\init.dir\build.make lib/CMakeFiles/init.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
 .PHONY : C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
 
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.s: C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
@@ -927,6 +1054,7 @@ C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.s: C_/Users/T
 # target to generate assembly for a file
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s:
 	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\pico_mpu9250.dir\build.make lib/CMakeFiles/pico_mpu9250.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
+	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\init.dir\build.make lib/CMakeFiles/init.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
 .PHONY : C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
 
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.obj: C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
@@ -935,6 +1063,7 @@ C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.obj
 # target to build an object file
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj:
 	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\pico_mpu9250.dir\build.make lib/CMakeFiles/pico_mpu9250.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\init.dir\build.make lib/CMakeFiles/init.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
 .PHONY : C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
 
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.i: C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
@@ -943,6 +1072,7 @@ C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.i: 
 # target to preprocess a source file
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i:
 	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\pico_mpu9250.dir\build.make lib/CMakeFiles/pico_mpu9250.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
+	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\init.dir\build.make lib/CMakeFiles/init.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
 .PHONY : C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
 
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.s: C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
@@ -951,6 +1081,7 @@ C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.s: 
 # target to generate assembly for a file
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s:
 	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\pico_mpu9250.dir\build.make lib/CMakeFiles/pico_mpu9250.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
+	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\init.dir\build.make lib/CMakeFiles/init.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
 .PHONY : C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
 
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.obj: C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
@@ -959,6 +1090,7 @@ C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.obj: C_/Us
 # target to build an object file
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj:
 	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\pico_mpu9250.dir\build.make lib/CMakeFiles/pico_mpu9250.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\init.dir\build.make lib/CMakeFiles/init.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
 .PHONY : C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
 
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.obj: C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
@@ -967,6 +1099,7 @@ C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.obj:
 # target to build an object file
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj:
 	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\pico_mpu9250.dir\build.make lib/CMakeFiles/pico_mpu9250.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
+	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\init.dir\build.make lib/CMakeFiles/init.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
 .PHONY : C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
 
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.i: C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
@@ -975,6 +1108,7 @@ C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.i: C
 # target to preprocess a source file
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i:
 	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\pico_mpu9250.dir\build.make lib/CMakeFiles/pico_mpu9250.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
+	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\init.dir\build.make lib/CMakeFiles/init.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
 .PHONY : C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
 
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.s: C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
@@ -983,6 +1117,7 @@ C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.s: C
 # target to generate assembly for a file
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s:
 	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\pico_mpu9250.dir\build.make lib/CMakeFiles/pico_mpu9250.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
+	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\init.dir\build.make lib/CMakeFiles/init.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
 .PHONY : C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
 
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.obj: C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
@@ -991,6 +1126,7 @@ C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.obj: C_/Users/Tom
 # target to build an object file
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj:
 	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\pico_mpu9250.dir\build.make lib/CMakeFiles/pico_mpu9250.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\init.dir\build.make lib/CMakeFiles/init.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
 .PHONY : C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
 
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.i: C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
@@ -999,6 +1135,7 @@ C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.i: C_/Users/Tomma
 # target to preprocess a source file
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i:
 	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\pico_mpu9250.dir\build.make lib/CMakeFiles/pico_mpu9250.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
+	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\init.dir\build.make lib/CMakeFiles/init.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
 .PHONY : C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
 
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.s: C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
@@ -1007,6 +1144,7 @@ C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.s: C_/Users/Tomma
 # target to generate assembly for a file
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s:
 	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\pico_mpu9250.dir\build.make lib/CMakeFiles/pico_mpu9250.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
+	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\init.dir\build.make lib/CMakeFiles/init.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 .PHONY : C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.obj: C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
@@ -1015,6 +1153,7 @@ C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.obj: C_
 # target to build an object file
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj:
 	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\pico_mpu9250.dir\build.make lib/CMakeFiles/pico_mpu9250.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\init.dir\build.make lib/CMakeFiles/init.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
 .PHONY : C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
 
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.i: C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
@@ -1023,6 +1162,7 @@ C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.i: C_/U
 # target to preprocess a source file
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i:
 	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\pico_mpu9250.dir\build.make lib/CMakeFiles/pico_mpu9250.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
+	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\init.dir\build.make lib/CMakeFiles/init.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
 .PHONY : C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
 
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.s: C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
@@ -1031,6 +1171,7 @@ C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.s: C_/U
 # target to generate assembly for a file
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s:
 	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\pico_mpu9250.dir\build.make lib/CMakeFiles/pico_mpu9250.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
+	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\init.dir\build.make lib/CMakeFiles/init.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
 .PHONY : C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
 
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.obj: C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
@@ -1039,6 +1180,7 @@ C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.obj: C_/Users/T
 # target to build an object file
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj:
 	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\pico_mpu9250.dir\build.make lib/CMakeFiles/pico_mpu9250.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
+	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\init.dir\build.make lib/CMakeFiles/init.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
 .PHONY : C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
 
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i: C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
@@ -1047,6 +1189,7 @@ C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i: C_/Users/Tom
 # target to preprocess a source file
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i:
 	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\pico_mpu9250.dir\build.make lib/CMakeFiles/pico_mpu9250.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
+	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\init.dir\build.make lib/CMakeFiles/init.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
 .PHONY : C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
 
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s: C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
@@ -1055,7 +1198,56 @@ C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s: C_/Users/Tom
 # target to generate assembly for a file
 C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s:
 	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\pico_mpu9250.dir\build.make lib/CMakeFiles/pico_mpu9250.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
+	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\init.dir\build.make lib/CMakeFiles/init.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
 .PHONY : C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
+
+MahonyAHRS.obj: MahonyAHRS.c.obj
+.PHONY : MahonyAHRS.obj
+
+# target to build an object file
+MahonyAHRS.c.obj:
+	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\MahonyAHRS.dir\build.make lib/CMakeFiles/MahonyAHRS.dir/MahonyAHRS.c.obj
+.PHONY : MahonyAHRS.c.obj
+
+MahonyAHRS.i: MahonyAHRS.c.i
+.PHONY : MahonyAHRS.i
+
+# target to preprocess a source file
+MahonyAHRS.c.i:
+	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\MahonyAHRS.dir\build.make lib/CMakeFiles/MahonyAHRS.dir/MahonyAHRS.c.i
+.PHONY : MahonyAHRS.c.i
+
+MahonyAHRS.s: MahonyAHRS.c.s
+.PHONY : MahonyAHRS.s
+
+# target to generate assembly for a file
+MahonyAHRS.c.s:
+	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\MahonyAHRS.dir\build.make lib/CMakeFiles/MahonyAHRS.dir/MahonyAHRS.c.s
+.PHONY : MahonyAHRS.c.s
+
+init.obj: init.cpp.obj
+.PHONY : init.obj
+
+# target to build an object file
+init.cpp.obj:
+	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\init.dir\build.make lib/CMakeFiles/init.dir/init.cpp.obj
+.PHONY : init.cpp.obj
+
+init.i: init.cpp.i
+.PHONY : init.i
+
+# target to preprocess a source file
+init.cpp.i:
+	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\init.dir\build.make lib/CMakeFiles/init.dir/init.cpp.i
+.PHONY : init.cpp.i
+
+init.s: init.cpp.s
+.PHONY : init.s
+
+# target to generate assembly for a file
+init.cpp.s:
+	cd /d C:\Users\Tommaso\C++\Drone\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\init.dir\build.make lib/CMakeFiles/init.dir/init.cpp.s
+.PHONY : init.cpp.s
 
 mpu9250.obj: mpu9250.cpp.obj
 .PHONY : mpu9250.obj
@@ -1089,6 +1281,8 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... MahonyAHRS
+	@echo ... init
 	@echo ... pico_mpu9250
 	@echo ... C_/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/critical_section.obj
 	@echo ... C_/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/critical_section.i
@@ -1206,6 +1400,12 @@ help:
 	@echo ... C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.obj
 	@echo ... C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i
 	@echo ... C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s
+	@echo ... MahonyAHRS.obj
+	@echo ... MahonyAHRS.i
+	@echo ... MahonyAHRS.s
+	@echo ... init.obj
+	@echo ... init.i
+	@echo ... init.s
 	@echo ... mpu9250.obj
 	@echo ... mpu9250.i
 	@echo ... mpu9250.s

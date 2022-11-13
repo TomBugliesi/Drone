@@ -72,5 +72,4 @@ CMakeFiles/rooster.dir/C_/Users/Tommaso/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
  C:\Users\Tommaso\pico\pico-sdk\lib\tinyusb\src\device/usbd.h \
  C:\Users\Tommaso\pico\pico-sdk\lib\tinyusb\src\class/cdc/cdc_device.h \
  C:\Users\Tommaso\pico\pico-sdk\lib\tinyusb\src\class/cdc/cdc.h \
- C:\Users\Tommaso\pico\pico-sdk\lib\tinyusb\src\device/usbd_pvt.h \
- c:\progra~2\armgnu~2\1142da~1.3re\arm-none-eabi\include\ctype.h
+ C:\Users\Tommaso\pico\pico-sdk\lib\tinyusb\src\device/usbd_pvt.h
