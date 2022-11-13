@@ -166,5 +166,5 @@ CMakeFiles/rooster.dir/main.cpp.obj: C:\Users\Tommaso\C++\Drone\main.cpp \
  c:\progra~2\armgnu~2\1142da~1.3re\arm-none-eabi\include\string.h \
  c:\progra~2\armgnu~2\1142da~1.3re\arm-none-eabi\include\strings.h \
  c:\progra~2\armgnu~2\1142da~1.3re\arm-none-eabi\include\sys\string.h \
- C:\Users\Tommaso\C++\Drone\lib/MahonyAHRS.h \
- C:\Users\Tommaso\C++\Drone\lib/init.h
+ C:\Users\Tommaso\C++\Drone\lib/init.h \
+ C:\Users\Tommaso\C++\Drone\lib/MahonyAHRS.h

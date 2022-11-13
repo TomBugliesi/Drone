@@ -119,6 +119,48 @@
 #define AK8963_HZL  0x07
 #define AK8963_HZH  0x08
 
+// Sensitivity Adjustment values
+#define AK8963_ASAX 0x10
+#define AK8963_ASAY 0x11
+#define AK8963_ASAZ 0x12
+
+// Magneto Scale Select
+#define AK8963_BIT_14 0x00  // 14bit output
+#define AK8963_BIT_16 0x01  // 16bit output
+
+// Continous data output
+#define AK8963_MODE_C8HZ 0x02  // 8Hz
+#define AK8963_MODE_C100HZ 0x06  // 100Hz
+
+// Device ID
+#define AK8963_WIA  0x00
+
+// Information
+#define AK8963_INFO  0x01
+
+// Status 1
+#define AK8963_ST1  0x02
+
+// Status 2
+#define AK8963_ST2  0x09
+
+// Control 1
+#define AK8963_CNTL1  0x0A
+// set bit 4 of AK8963_CNTL1 to 1 to change resolution 
+// set bit 0:3 of AK8963_CNTL1 to AK8963_MODE_C100HZ to change to continous mode
+// Control 2
+#define AK8963_CNTL2  0x0B
+
+// Self-Test Control
+#define AK8963_ASTC  0x0C
+
+// Test 1, 2
+#define AK8963_TS1  0x0D
+#define AK8963_TS2  0x0E
+
+// I2C Disable
+#define AK8963_I2CDIS  0x0F
+
 // Gravity
 #define GRAVITY  9.80665
 
@@ -128,6 +170,8 @@
 #define AK8963_ADDRESS  0x0C
 
 void mpu9250_reset();
+void ak8963_reset(); //NOT USE
+
 void read_registers(uint8_t reg, uint8_t *buf, uint16_t len); 
 
 void mpu9250_afs_set(uint8_t afs);
@@ -137,14 +181,16 @@ void mpu9250_read_raw_accel(int16_t accel[3]);
 void mpu9250_read_raw_gyro(int16_t gyro[3]);
 void mpu9250_read_raw_mag(int16_t mag[3]);
 
-void mpu9250_read_acc(float accel_float[3], int16_t accel_bias[3], float scale[0]);
+void mpu9250_read_acc(float accel_float[3], int16_t accel_bias[3], float accel_scale[0]);
+void mpu9250_read_gyro(float gyro_float[3], int16_t gyrol_bias[3], float gyro_scale[0]);
 
-void mpu9250_read_acc_scale(float *scale);
+void mpu9250_read_acc_scale(float *accel_scale_p);
+void mpu9250_read_gyro_scale(float *gyro_scale_p);
 
 //void calibrate_acc(int16_t accCal[3], int loop=1000);
-void calibrate_accel(int16_t *acc_bias, float *scale_p, int loop);
+void calibrate_accel(int16_t *acc_bias_p, float *acc_scale_p, int loop);
+void calibrate_gyro(int16_t *gyro_bias_p, int loop);
 
-void calibrate_gyro(int16_t gyroCal[3], int loop);
 void mpu9250_read_raw_gyro_offset(int16_t gyro[3], int16_t gyroCal[3]);
 
 void calculate_angles_from_accel(int16_t eulerAngles[2], int16_t accel[3]);

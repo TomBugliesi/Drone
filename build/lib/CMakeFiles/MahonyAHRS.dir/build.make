@@ -82,17 +82,742 @@ lib/CMakeFiles/MahonyAHRS.dir/MahonyAHRS.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/MahonyAHRS.dir/MahonyAHRS.c.s"
 	cd /d C:\Users\Tommaso\C++\Drone\build\lib && C:\PROGRA~2\ARMGNU~2\1142DA~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Tommaso\C++\Drone\lib\MahonyAHRS.c -o CMakeFiles\MahonyAHRS.dir\MahonyAHRS.c.s
 
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: lib/CMakeFiles/MahonyAHRS.dir/flags.make
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: C:/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: lib/CMakeFiles/MahonyAHRS.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Tommaso\C++\Drone\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj"
+	cd /d C:\Users\Tommaso\C++\Drone\build\lib && C:\PROGRA~2\ARMGNU~2\1142DA~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj -MF CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c.obj.d -o CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c.obj -c C:\Users\Tommaso\pico\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i"
+	cd /d C:\Users\Tommaso\C++\Drone\build\lib && C:\PROGRA~2\ARMGNU~2\1142DA~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Tommaso\pico\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c > CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c.i
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s"
+	cd /d C:\Users\Tommaso\C++\Drone\build\lib && C:\PROGRA~2\ARMGNU~2\1142DA~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Tommaso\pico\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c -o CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c.s
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: lib/CMakeFiles/MahonyAHRS.dir/flags.make
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: C:/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: lib/CMakeFiles/MahonyAHRS.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Tommaso\C++\Drone\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj"
+	cd /d C:\Users\Tommaso\C++\Drone\build\lib && C:\PROGRA~2\ARMGNU~2\1142DA~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj -MF CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\rp2_common\hardware_gpio\gpio.c.obj.d -o CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\rp2_common\hardware_gpio\gpio.c.obj -c C:\Users\Tommaso\pico\pico-sdk\src\rp2_common\hardware_gpio\gpio.c
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i"
+	cd /d C:\Users\Tommaso\C++\Drone\build\lib && C:\PROGRA~2\ARMGNU~2\1142DA~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Tommaso\pico\pico-sdk\src\rp2_common\hardware_gpio\gpio.c > CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\rp2_common\hardware_gpio\gpio.c.i
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s"
+	cd /d C:\Users\Tommaso\C++\Drone\build\lib && C:\PROGRA~2\ARMGNU~2\1142DA~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Tommaso\pico\pico-sdk\src\rp2_common\hardware_gpio\gpio.c -o CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\rp2_common\hardware_gpio\gpio.c.s
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: lib/CMakeFiles/MahonyAHRS.dir/flags.make
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: C:/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: lib/CMakeFiles/MahonyAHRS.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Tommaso\C++\Drone\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj"
+	cd /d C:\Users\Tommaso\C++\Drone\build\lib && C:\PROGRA~2\ARMGNU~2\1142DA~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj -MF CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\rp2_common\hardware_claim\claim.c.obj.d -o CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\rp2_common\hardware_claim\claim.c.obj -c C:\Users\Tommaso\pico\pico-sdk\src\rp2_common\hardware_claim\claim.c
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i"
+	cd /d C:\Users\Tommaso\C++\Drone\build\lib && C:\PROGRA~2\ARMGNU~2\1142DA~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Tommaso\pico\pico-sdk\src\rp2_common\hardware_claim\claim.c > CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\rp2_common\hardware_claim\claim.c.i
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s"
+	cd /d C:\Users\Tommaso\C++\Drone\build\lib && C:\PROGRA~2\ARMGNU~2\1142DA~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Tommaso\pico\pico-sdk\src\rp2_common\hardware_claim\claim.c -o CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\rp2_common\hardware_claim\claim.c.s
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: lib/CMakeFiles/MahonyAHRS.dir/flags.make
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: C:/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_platform/platform.c
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: lib/CMakeFiles/MahonyAHRS.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Tommaso\C++\Drone\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj"
+	cd /d C:\Users\Tommaso\C++\Drone\build\lib && C:\PROGRA~2\ARMGNU~2\1142DA~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj -MF CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\rp2_common\pico_platform\platform.c.obj.d -o CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\rp2_common\pico_platform\platform.c.obj -c C:\Users\Tommaso\pico\pico-sdk\src\rp2_common\pico_platform\platform.c
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i"
+	cd /d C:\Users\Tommaso\C++\Drone\build\lib && C:\PROGRA~2\ARMGNU~2\1142DA~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Tommaso\pico\pico-sdk\src\rp2_common\pico_platform\platform.c > CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\rp2_common\pico_platform\platform.c.i
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s"
+	cd /d C:\Users\Tommaso\C++\Drone\build\lib && C:\PROGRA~2\ARMGNU~2\1142DA~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Tommaso\pico\pico-sdk\src\rp2_common\pico_platform\platform.c -o CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\rp2_common\pico_platform\platform.c.s
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: lib/CMakeFiles/MahonyAHRS.dir/flags.make
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: C:/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: lib/CMakeFiles/MahonyAHRS.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Tommaso\C++\Drone\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj"
+	cd /d C:\Users\Tommaso\C++\Drone\build\lib && C:\PROGRA~2\ARMGNU~2\1142DA~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj -MF CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\rp2_common\hardware_sync\sync.c.obj.d -o CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\rp2_common\hardware_sync\sync.c.obj -c C:\Users\Tommaso\pico\pico-sdk\src\rp2_common\hardware_sync\sync.c
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i"
+	cd /d C:\Users\Tommaso\C++\Drone\build\lib && C:\PROGRA~2\ARMGNU~2\1142DA~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Tommaso\pico\pico-sdk\src\rp2_common\hardware_sync\sync.c > CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\rp2_common\hardware_sync\sync.c.i
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s"
+	cd /d C:\Users\Tommaso\C++\Drone\build\lib && C:\PROGRA~2\ARMGNU~2\1142DA~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Tommaso\pico\pico-sdk\src\rp2_common\hardware_sync\sync.c -o CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\rp2_common\hardware_sync\sync.c.s
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: lib/CMakeFiles/MahonyAHRS.dir/flags.make
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: C:/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: lib/CMakeFiles/MahonyAHRS.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Tommaso\C++\Drone\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj"
+	cd /d C:\Users\Tommaso\C++\Drone\build\lib && C:\PROGRA~2\ARMGNU~2\1142DA~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj -MF CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\rp2_common\hardware_irq\irq.c.obj.d -o CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\rp2_common\hardware_irq\irq.c.obj -c C:\Users\Tommaso\pico\pico-sdk\src\rp2_common\hardware_irq\irq.c
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i"
+	cd /d C:\Users\Tommaso\C++\Drone\build\lib && C:\PROGRA~2\ARMGNU~2\1142DA~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Tommaso\pico\pico-sdk\src\rp2_common\hardware_irq\irq.c > CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\rp2_common\hardware_irq\irq.c.i
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s"
+	cd /d C:\Users\Tommaso\C++\Drone\build\lib && C:\PROGRA~2\ARMGNU~2\1142DA~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Tommaso\pico\pico-sdk\src\rp2_common\hardware_irq\irq.c -o CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\rp2_common\hardware_irq\irq.c.s
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: lib/CMakeFiles/MahonyAHRS.dir/flags.make
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: C:/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Tommaso\C++\Drone\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building ASM object lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj"
+	cd /d C:\Users\Tommaso\C++\Drone\build\lib && C:\PROGRA~2\ARMGNU~2\1142DA~1.3RE\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\rp2_common\hardware_irq\irq_handler_chain.S.obj   -c C:\Users\Tommaso\pico\pico-sdk\src\rp2_common\hardware_irq\irq_handler_chain.S
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.i"
+	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_PREPROCESSED_SOURCE
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.s"
+	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_ASSEMBLY_SOURCE
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/sem.c.obj: lib/CMakeFiles/MahonyAHRS.dir/flags.make
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/sem.c.obj: C:/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/sem.c
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/sem.c.obj: lib/CMakeFiles/MahonyAHRS.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Tommaso\C++\Drone\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/sem.c.obj"
+	cd /d C:\Users\Tommaso\C++\Drone\build\lib && C:\PROGRA~2\ARMGNU~2\1142DA~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/sem.c.obj -MF CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\common\pico_sync\sem.c.obj.d -o CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\common\pico_sync\sem.c.obj -c C:\Users\Tommaso\pico\pico-sdk\src\common\pico_sync\sem.c
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/sem.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/sem.c.i"
+	cd /d C:\Users\Tommaso\C++\Drone\build\lib && C:\PROGRA~2\ARMGNU~2\1142DA~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Tommaso\pico\pico-sdk\src\common\pico_sync\sem.c > CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\common\pico_sync\sem.c.i
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/sem.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/sem.c.s"
+	cd /d C:\Users\Tommaso\C++\Drone\build\lib && C:\PROGRA~2\ARMGNU~2\1142DA~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Tommaso\pico\pico-sdk\src\common\pico_sync\sem.c -o CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\common\pico_sync\sem.c.s
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj: lib/CMakeFiles/MahonyAHRS.dir/flags.make
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj: C:/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/lock_core.c
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj: lib/CMakeFiles/MahonyAHRS.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Tommaso\C++\Drone\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj"
+	cd /d C:\Users\Tommaso\C++\Drone\build\lib && C:\PROGRA~2\ARMGNU~2\1142DA~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj -MF CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\common\pico_sync\lock_core.c.obj.d -o CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\common\pico_sync\lock_core.c.obj -c C:\Users\Tommaso\pico\pico-sdk\src\common\pico_sync\lock_core.c
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/lock_core.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/lock_core.c.i"
+	cd /d C:\Users\Tommaso\C++\Drone\build\lib && C:\PROGRA~2\ARMGNU~2\1142DA~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Tommaso\pico\pico-sdk\src\common\pico_sync\lock_core.c > CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\common\pico_sync\lock_core.c.i
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/lock_core.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/lock_core.c.s"
+	cd /d C:\Users\Tommaso\C++\Drone\build\lib && C:\PROGRA~2\ARMGNU~2\1142DA~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Tommaso\pico\pico-sdk\src\common\pico_sync\lock_core.c -o CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\common\pico_sync\lock_core.c.s
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_time/time.c.obj: lib/CMakeFiles/MahonyAHRS.dir/flags.make
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_time/time.c.obj: C:/Users/Tommaso/pico/pico-sdk/src/common/pico_time/time.c
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_time/time.c.obj: lib/CMakeFiles/MahonyAHRS.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Tommaso\C++\Drone\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_time/time.c.obj"
+	cd /d C:\Users\Tommaso\C++\Drone\build\lib && C:\PROGRA~2\ARMGNU~2\1142DA~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_time/time.c.obj -MF CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\common\pico_time\time.c.obj.d -o CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\common\pico_time\time.c.obj -c C:\Users\Tommaso\pico\pico-sdk\src\common\pico_time\time.c
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_time/time.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_time/time.c.i"
+	cd /d C:\Users\Tommaso\C++\Drone\build\lib && C:\PROGRA~2\ARMGNU~2\1142DA~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Tommaso\pico\pico-sdk\src\common\pico_time\time.c > CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\common\pico_time\time.c.i
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_time/time.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_time/time.c.s"
+	cd /d C:\Users\Tommaso\C++\Drone\build\lib && C:\PROGRA~2\ARMGNU~2\1142DA~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Tommaso\pico\pico-sdk\src\common\pico_time\time.c -o CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\common\pico_time\time.c.s
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: lib/CMakeFiles/MahonyAHRS.dir/flags.make
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: C:/Users/Tommaso/pico/pico-sdk/src/common/pico_time/timeout_helper.c
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: lib/CMakeFiles/MahonyAHRS.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Tommaso\C++\Drone\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj"
+	cd /d C:\Users\Tommaso\C++\Drone\build\lib && C:\PROGRA~2\ARMGNU~2\1142DA~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj -MF CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\common\pico_time\timeout_helper.c.obj.d -o CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\common\pico_time\timeout_helper.c.obj -c C:\Users\Tommaso\pico\pico-sdk\src\common\pico_time\timeout_helper.c
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i"
+	cd /d C:\Users\Tommaso\C++\Drone\build\lib && C:\PROGRA~2\ARMGNU~2\1142DA~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Tommaso\pico\pico-sdk\src\common\pico_time\timeout_helper.c > CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\common\pico_time\timeout_helper.c.i
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s"
+	cd /d C:\Users\Tommaso\C++\Drone\build\lib && C:\PROGRA~2\ARMGNU~2\1142DA~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Tommaso\pico\pico-sdk\src\common\pico_time\timeout_helper.c -o CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\common\pico_time\timeout_helper.c.s
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: lib/CMakeFiles/MahonyAHRS.dir/flags.make
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: C:/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: lib/CMakeFiles/MahonyAHRS.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Tommaso\C++\Drone\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj"
+	cd /d C:\Users\Tommaso\C++\Drone\build\lib && C:\PROGRA~2\ARMGNU~2\1142DA~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj -MF CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\rp2_common\hardware_timer\timer.c.obj.d -o CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\rp2_common\hardware_timer\timer.c.obj -c C:\Users\Tommaso\pico\pico-sdk\src\rp2_common\hardware_timer\timer.c
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i"
+	cd /d C:\Users\Tommaso\C++\Drone\build\lib && C:\PROGRA~2\ARMGNU~2\1142DA~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Tommaso\pico\pico-sdk\src\rp2_common\hardware_timer\timer.c > CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\rp2_common\hardware_timer\timer.c.i
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s"
+	cd /d C:\Users\Tommaso\C++\Drone\build\lib && C:\PROGRA~2\ARMGNU~2\1142DA~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Tommaso\pico\pico-sdk\src\rp2_common\hardware_timer\timer.c -o CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\rp2_common\hardware_timer\timer.c.s
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_util/datetime.c.obj: lib/CMakeFiles/MahonyAHRS.dir/flags.make
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_util/datetime.c.obj: C:/Users/Tommaso/pico/pico-sdk/src/common/pico_util/datetime.c
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_util/datetime.c.obj: lib/CMakeFiles/MahonyAHRS.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Tommaso\C++\Drone\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_util/datetime.c.obj"
+	cd /d C:\Users\Tommaso\C++\Drone\build\lib && C:\PROGRA~2\ARMGNU~2\1142DA~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_util/datetime.c.obj -MF CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\common\pico_util\datetime.c.obj.d -o CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\common\pico_util\datetime.c.obj -c C:\Users\Tommaso\pico\pico-sdk\src\common\pico_util\datetime.c
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_util/datetime.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_util/datetime.c.i"
+	cd /d C:\Users\Tommaso\C++\Drone\build\lib && C:\PROGRA~2\ARMGNU~2\1142DA~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Tommaso\pico\pico-sdk\src\common\pico_util\datetime.c > CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\common\pico_util\datetime.c.i
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_util/datetime.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_util/datetime.c.s"
+	cd /d C:\Users\Tommaso\C++\Drone\build\lib && C:\PROGRA~2\ARMGNU~2\1142DA~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Tommaso\pico\pico-sdk\src\common\pico_util\datetime.c -o CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\common\pico_util\datetime.c.s
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_util/pheap.c.obj: lib/CMakeFiles/MahonyAHRS.dir/flags.make
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_util/pheap.c.obj: C:/Users/Tommaso/pico/pico-sdk/src/common/pico_util/pheap.c
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_util/pheap.c.obj: lib/CMakeFiles/MahonyAHRS.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Tommaso\C++\Drone\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_util/pheap.c.obj"
+	cd /d C:\Users\Tommaso\C++\Drone\build\lib && C:\PROGRA~2\ARMGNU~2\1142DA~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_util/pheap.c.obj -MF CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\common\pico_util\pheap.c.obj.d -o CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\common\pico_util\pheap.c.obj -c C:\Users\Tommaso\pico\pico-sdk\src\common\pico_util\pheap.c
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_util/pheap.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_util/pheap.c.i"
+	cd /d C:\Users\Tommaso\C++\Drone\build\lib && C:\PROGRA~2\ARMGNU~2\1142DA~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Tommaso\pico\pico-sdk\src\common\pico_util\pheap.c > CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\common\pico_util\pheap.c.i
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_util/pheap.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_util/pheap.c.s"
+	cd /d C:\Users\Tommaso\C++\Drone\build\lib && C:\PROGRA~2\ARMGNU~2\1142DA~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Tommaso\pico\pico-sdk\src\common\pico_util\pheap.c -o CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\common\pico_util\pheap.c.s
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_util/queue.c.obj: lib/CMakeFiles/MahonyAHRS.dir/flags.make
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_util/queue.c.obj: C:/Users/Tommaso/pico/pico-sdk/src/common/pico_util/queue.c
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_util/queue.c.obj: lib/CMakeFiles/MahonyAHRS.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Tommaso\C++\Drone\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_util/queue.c.obj"
+	cd /d C:\Users\Tommaso\C++\Drone\build\lib && C:\PROGRA~2\ARMGNU~2\1142DA~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_util/queue.c.obj -MF CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\common\pico_util\queue.c.obj.d -o CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\common\pico_util\queue.c.obj -c C:\Users\Tommaso\pico\pico-sdk\src\common\pico_util\queue.c
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_util/queue.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_util/queue.c.i"
+	cd /d C:\Users\Tommaso\C++\Drone\build\lib && C:\PROGRA~2\ARMGNU~2\1142DA~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Tommaso\pico\pico-sdk\src\common\pico_util\queue.c > CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\common\pico_util\queue.c.i
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_util/queue.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_util/queue.c.s"
+	cd /d C:\Users\Tommaso\C++\Drone\build\lib && C:\PROGRA~2\ARMGNU~2\1142DA~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Tommaso\pico\pico-sdk\src\common\pico_util\queue.c -o CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\common\pico_util\queue.c.s
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/mutex.c.obj: lib/CMakeFiles/MahonyAHRS.dir/flags.make
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/mutex.c.obj: C:/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/mutex.c
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/mutex.c.obj: lib/CMakeFiles/MahonyAHRS.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Tommaso\C++\Drone\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/mutex.c.obj"
+	cd /d C:\Users\Tommaso\C++\Drone\build\lib && C:\PROGRA~2\ARMGNU~2\1142DA~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/mutex.c.obj -MF CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\common\pico_sync\mutex.c.obj.d -o CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\common\pico_sync\mutex.c.obj -c C:\Users\Tommaso\pico\pico-sdk\src\common\pico_sync\mutex.c
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/mutex.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/mutex.c.i"
+	cd /d C:\Users\Tommaso\C++\Drone\build\lib && C:\PROGRA~2\ARMGNU~2\1142DA~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Tommaso\pico\pico-sdk\src\common\pico_sync\mutex.c > CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\common\pico_sync\mutex.c.i
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/mutex.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/mutex.c.s"
+	cd /d C:\Users\Tommaso\C++\Drone\build\lib && C:\PROGRA~2\ARMGNU~2\1142DA~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Tommaso\pico\pico-sdk\src\common\pico_sync\mutex.c -o CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\common\pico_sync\mutex.c.s
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: lib/CMakeFiles/MahonyAHRS.dir/flags.make
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: C:/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/critical_section.c
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: lib/CMakeFiles/MahonyAHRS.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Tommaso\C++\Drone\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj"
+	cd /d C:\Users\Tommaso\C++\Drone\build\lib && C:\PROGRA~2\ARMGNU~2\1142DA~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj -MF CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\common\pico_sync\critical_section.c.obj.d -o CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\common\pico_sync\critical_section.c.obj -c C:\Users\Tommaso\pico\pico-sdk\src\common\pico_sync\critical_section.c
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/critical_section.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/critical_section.c.i"
+	cd /d C:\Users\Tommaso\C++\Drone\build\lib && C:\PROGRA~2\ARMGNU~2\1142DA~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Tommaso\pico\pico-sdk\src\common\pico_sync\critical_section.c > CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\common\pico_sync\critical_section.c.i
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/critical_section.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/critical_section.c.s"
+	cd /d C:\Users\Tommaso\C++\Drone\build\lib && C:\PROGRA~2\ARMGNU~2\1142DA~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Tommaso\pico\pico-sdk\src\common\pico_sync\critical_section.c -o CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\common\pico_sync\critical_section.c.s
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: lib/CMakeFiles/MahonyAHRS.dir/flags.make
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: C:/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: lib/CMakeFiles/MahonyAHRS.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Tommaso\C++\Drone\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj"
+	cd /d C:\Users\Tommaso\C++\Drone\build\lib && C:\PROGRA~2\ARMGNU~2\1142DA~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj -MF CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\rp2_common\hardware_uart\uart.c.obj.d -o CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\rp2_common\hardware_uart\uart.c.obj -c C:\Users\Tommaso\pico\pico-sdk\src\rp2_common\hardware_uart\uart.c
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i"
+	cd /d C:\Users\Tommaso\C++\Drone\build\lib && C:\PROGRA~2\ARMGNU~2\1142DA~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Tommaso\pico\pico-sdk\src\rp2_common\hardware_uart\uart.c > CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\rp2_common\hardware_uart\uart.c.i
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s"
+	cd /d C:\Users\Tommaso\C++\Drone\build\lib && C:\PROGRA~2\ARMGNU~2\1142DA~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Tommaso\pico\pico-sdk\src\rp2_common\hardware_uart\uart.c -o CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\rp2_common\hardware_uart\uart.c.s
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: lib/CMakeFiles/MahonyAHRS.dir/flags.make
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: C:/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Tommaso\C++\Drone\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building ASM object lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj"
+	cd /d C:\Users\Tommaso\C++\Drone\build\lib && C:\PROGRA~2\ARMGNU~2\1142DA~1.3RE\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\rp2_common\hardware_divider\divider.S.obj   -c C:\Users\Tommaso\pico\pico-sdk\src\rp2_common\hardware_divider\divider.S
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.i"
+	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_PREPROCESSED_SOURCE
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.s"
+	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_ASSEMBLY_SOURCE
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: lib/CMakeFiles/MahonyAHRS.dir/flags.make
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: C:/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: lib/CMakeFiles/MahonyAHRS.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Tommaso\C++\Drone\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj"
+	cd /d C:\Users\Tommaso\C++\Drone\build\lib && C:\PROGRA~2\ARMGNU~2\1142DA~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj -MF CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\rp2_common\pico_runtime\runtime.c.obj.d -o CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\rp2_common\pico_runtime\runtime.c.obj -c C:\Users\Tommaso\pico\pico-sdk\src\rp2_common\pico_runtime\runtime.c
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i"
+	cd /d C:\Users\Tommaso\C++\Drone\build\lib && C:\PROGRA~2\ARMGNU~2\1142DA~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Tommaso\pico\pico-sdk\src\rp2_common\pico_runtime\runtime.c > CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\rp2_common\pico_runtime\runtime.c.i
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s"
+	cd /d C:\Users\Tommaso\C++\Drone\build\lib && C:\PROGRA~2\ARMGNU~2\1142DA~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Tommaso\pico\pico-sdk\src\rp2_common\pico_runtime\runtime.c -o CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\rp2_common\pico_runtime\runtime.c.s
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: lib/CMakeFiles/MahonyAHRS.dir/flags.make
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: C:/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: lib/CMakeFiles/MahonyAHRS.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Tommaso\C++\Drone\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj"
+	cd /d C:\Users\Tommaso\C++\Drone\build\lib && C:\PROGRA~2\ARMGNU~2\1142DA~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj -MF CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\rp2_common\hardware_clocks\clocks.c.obj.d -o CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\rp2_common\hardware_clocks\clocks.c.obj -c C:\Users\Tommaso\pico\pico-sdk\src\rp2_common\hardware_clocks\clocks.c
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i"
+	cd /d C:\Users\Tommaso\C++\Drone\build\lib && C:\PROGRA~2\ARMGNU~2\1142DA~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Tommaso\pico\pico-sdk\src\rp2_common\hardware_clocks\clocks.c > CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\rp2_common\hardware_clocks\clocks.c.i
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s"
+	cd /d C:\Users\Tommaso\C++\Drone\build\lib && C:\PROGRA~2\ARMGNU~2\1142DA~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Tommaso\pico\pico-sdk\src\rp2_common\hardware_clocks\clocks.c -o CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\rp2_common\hardware_clocks\clocks.c.s
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: lib/CMakeFiles/MahonyAHRS.dir/flags.make
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: C:/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: lib/CMakeFiles/MahonyAHRS.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Tommaso\C++\Drone\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj"
+	cd /d C:\Users\Tommaso\C++\Drone\build\lib && C:\PROGRA~2\ARMGNU~2\1142DA~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj -MF CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\rp2_common\hardware_pll\pll.c.obj.d -o CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\rp2_common\hardware_pll\pll.c.obj -c C:\Users\Tommaso\pico\pico-sdk\src\rp2_common\hardware_pll\pll.c
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i"
+	cd /d C:\Users\Tommaso\C++\Drone\build\lib && C:\PROGRA~2\ARMGNU~2\1142DA~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Tommaso\pico\pico-sdk\src\rp2_common\hardware_pll\pll.c > CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\rp2_common\hardware_pll\pll.c.i
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s"
+	cd /d C:\Users\Tommaso\C++\Drone\build\lib && C:\PROGRA~2\ARMGNU~2\1142DA~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Tommaso\pico\pico-sdk\src\rp2_common\hardware_pll\pll.c -o CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\rp2_common\hardware_pll\pll.c.s
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: lib/CMakeFiles/MahonyAHRS.dir/flags.make
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: C:/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: lib/CMakeFiles/MahonyAHRS.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Tommaso\C++\Drone\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj"
+	cd /d C:\Users\Tommaso\C++\Drone\build\lib && C:\PROGRA~2\ARMGNU~2\1142DA~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj -MF CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\rp2_common\hardware_vreg\vreg.c.obj.d -o CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\rp2_common\hardware_vreg\vreg.c.obj -c C:\Users\Tommaso\pico\pico-sdk\src\rp2_common\hardware_vreg\vreg.c
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i"
+	cd /d C:\Users\Tommaso\C++\Drone\build\lib && C:\PROGRA~2\ARMGNU~2\1142DA~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Tommaso\pico\pico-sdk\src\rp2_common\hardware_vreg\vreg.c > CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\rp2_common\hardware_vreg\vreg.c.i
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s"
+	cd /d C:\Users\Tommaso\C++\Drone\build\lib && C:\PROGRA~2\ARMGNU~2\1142DA~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Tommaso\pico\pico-sdk\src\rp2_common\hardware_vreg\vreg.c -o CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\rp2_common\hardware_vreg\vreg.c.s
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: lib/CMakeFiles/MahonyAHRS.dir/flags.make
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: C:/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: lib/CMakeFiles/MahonyAHRS.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Tommaso\C++\Drone\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj"
+	cd /d C:\Users\Tommaso\C++\Drone\build\lib && C:\PROGRA~2\ARMGNU~2\1142DA~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj -MF CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c.obj.d -o CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c.obj -c C:\Users\Tommaso\pico\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i"
+	cd /d C:\Users\Tommaso\C++\Drone\build\lib && C:\PROGRA~2\ARMGNU~2\1142DA~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Tommaso\pico\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c > CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c.i
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s"
+	cd /d C:\Users\Tommaso\C++\Drone\build\lib && C:\PROGRA~2\ARMGNU~2\1142DA~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Tommaso\pico\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c -o CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c.s
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: lib/CMakeFiles/MahonyAHRS.dir/flags.make
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: C:/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: lib/CMakeFiles/MahonyAHRS.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Tommaso\C++\Drone\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj"
+	cd /d C:\Users\Tommaso\C++\Drone\build\lib && C:\PROGRA~2\ARMGNU~2\1142DA~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj -MF CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\rp2_common\hardware_xosc\xosc.c.obj.d -o CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\rp2_common\hardware_xosc\xosc.c.obj -c C:\Users\Tommaso\pico\pico-sdk\src\rp2_common\hardware_xosc\xosc.c
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i"
+	cd /d C:\Users\Tommaso\C++\Drone\build\lib && C:\PROGRA~2\ARMGNU~2\1142DA~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Tommaso\pico\pico-sdk\src\rp2_common\hardware_xosc\xosc.c > CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\rp2_common\hardware_xosc\xosc.c.i
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s"
+	cd /d C:\Users\Tommaso\C++\Drone\build\lib && C:\PROGRA~2\ARMGNU~2\1142DA~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Tommaso\pico\pico-sdk\src\rp2_common\hardware_xosc\xosc.c -o CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\rp2_common\hardware_xosc\xosc.c.s
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: lib/CMakeFiles/MahonyAHRS.dir/flags.make
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: C:/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_printf/printf.c
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: lib/CMakeFiles/MahonyAHRS.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Tommaso\C++\Drone\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj"
+	cd /d C:\Users\Tommaso\C++\Drone\build\lib && C:\PROGRA~2\ARMGNU~2\1142DA~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj -MF CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\rp2_common\pico_printf\printf.c.obj.d -o CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\rp2_common\pico_printf\printf.c.obj -c C:\Users\Tommaso\pico\pico-sdk\src\rp2_common\pico_printf\printf.c
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i"
+	cd /d C:\Users\Tommaso\C++\Drone\build\lib && C:\PROGRA~2\ARMGNU~2\1142DA~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Tommaso\pico\pico-sdk\src\rp2_common\pico_printf\printf.c > CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\rp2_common\pico_printf\printf.c.i
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s"
+	cd /d C:\Users\Tommaso\C++\Drone\build\lib && C:\PROGRA~2\ARMGNU~2\1142DA~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Tommaso\pico\pico-sdk\src\rp2_common\pico_printf\printf.c -o CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\rp2_common\pico_printf\printf.c.s
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: lib/CMakeFiles/MahonyAHRS.dir/flags.make
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: C:/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Tommaso\C++\Drone\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building ASM object lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj"
+	cd /d C:\Users\Tommaso\C++\Drone\build\lib && C:\PROGRA~2\ARMGNU~2\1142DA~1.3RE\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\rp2_common\pico_bit_ops\bit_ops_aeabi.S.obj   -c C:\Users\Tommaso\pico\pico-sdk\src\rp2_common\pico_bit_ops\bit_ops_aeabi.S
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.i"
+	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_PREPROCESSED_SOURCE
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.s"
+	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_ASSEMBLY_SOURCE
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: lib/CMakeFiles/MahonyAHRS.dir/flags.make
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: C:/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: lib/CMakeFiles/MahonyAHRS.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Tommaso\C++\Drone\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj"
+	cd /d C:\Users\Tommaso\C++\Drone\build\lib && C:\PROGRA~2\ARMGNU~2\1142DA~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj -MF CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c.obj.d -o CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c.obj -c C:\Users\Tommaso\pico\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i"
+	cd /d C:\Users\Tommaso\C++\Drone\build\lib && C:\PROGRA~2\ARMGNU~2\1142DA~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Tommaso\pico\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c > CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c.i
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s"
+	cd /d C:\Users\Tommaso\C++\Drone\build\lib && C:\PROGRA~2\ARMGNU~2\1142DA~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Tommaso\pico\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c -o CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c.s
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj: lib/CMakeFiles/MahonyAHRS.dir/flags.make
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj: C:/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_divider/divider.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Tommaso\C++\Drone\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building ASM object lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj"
+	cd /d C:\Users\Tommaso\C++\Drone\build\lib && C:\PROGRA~2\ARMGNU~2\1142DA~1.3RE\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\rp2_common\pico_divider\divider.S.obj   -c C:\Users\Tommaso\pico\pico-sdk\src\rp2_common\pico_divider\divider.S
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.i"
+	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_PREPROCESSED_SOURCE
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.s"
+	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_ASSEMBLY_SOURCE
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj: lib/CMakeFiles/MahonyAHRS.dir/flags.make
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj: C:/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Tommaso\C++\Drone\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building ASM object lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj"
+	cd /d C:\Users\Tommaso\C++\Drone\build\lib && C:\PROGRA~2\ARMGNU~2\1142DA~1.3RE\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\rp2_common\pico_double\double_aeabi.S.obj   -c C:\Users\Tommaso\pico\pico-sdk\src\rp2_common\pico_double\double_aeabi.S
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.i"
+	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_PREPROCESSED_SOURCE
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.s"
+	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_ASSEMBLY_SOURCE
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: lib/CMakeFiles/MahonyAHRS.dir/flags.make
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: C:/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: lib/CMakeFiles/MahonyAHRS.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Tommaso\C++\Drone\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj"
+	cd /d C:\Users\Tommaso\C++\Drone\build\lib && C:\PROGRA~2\ARMGNU~2\1142DA~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj -MF CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\rp2_common\pico_double\double_init_rom.c.obj.d -o CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\rp2_common\pico_double\double_init_rom.c.obj -c C:\Users\Tommaso\pico\pico-sdk\src\rp2_common\pico_double\double_init_rom.c
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i"
+	cd /d C:\Users\Tommaso\C++\Drone\build\lib && C:\PROGRA~2\ARMGNU~2\1142DA~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Tommaso\pico\pico-sdk\src\rp2_common\pico_double\double_init_rom.c > CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\rp2_common\pico_double\double_init_rom.c.i
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s"
+	cd /d C:\Users\Tommaso\C++\Drone\build\lib && C:\PROGRA~2\ARMGNU~2\1142DA~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Tommaso\pico\pico-sdk\src\rp2_common\pico_double\double_init_rom.c -o CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\rp2_common\pico_double\double_init_rom.c.s
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: lib/CMakeFiles/MahonyAHRS.dir/flags.make
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: C:/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_double/double_math.c
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: lib/CMakeFiles/MahonyAHRS.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Tommaso\C++\Drone\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj"
+	cd /d C:\Users\Tommaso\C++\Drone\build\lib && C:\PROGRA~2\ARMGNU~2\1142DA~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj -MF CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\rp2_common\pico_double\double_math.c.obj.d -o CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\rp2_common\pico_double\double_math.c.obj -c C:\Users\Tommaso\pico\pico-sdk\src\rp2_common\pico_double\double_math.c
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i"
+	cd /d C:\Users\Tommaso\C++\Drone\build\lib && C:\PROGRA~2\ARMGNU~2\1142DA~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Tommaso\pico\pico-sdk\src\rp2_common\pico_double\double_math.c > CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\rp2_common\pico_double\double_math.c.i
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s"
+	cd /d C:\Users\Tommaso\C++\Drone\build\lib && C:\PROGRA~2\ARMGNU~2\1142DA~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Tommaso\pico\pico-sdk\src\rp2_common\pico_double\double_math.c -o CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\rp2_common\pico_double\double_math.c.s
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: lib/CMakeFiles/MahonyAHRS.dir/flags.make
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: C:/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Tommaso\C++\Drone\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building ASM object lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj"
+	cd /d C:\Users\Tommaso\C++\Drone\build\lib && C:\PROGRA~2\ARMGNU~2\1142DA~1.3RE\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\rp2_common\pico_double\double_v1_rom_shim.S.obj   -c C:\Users\Tommaso\pico\pico-sdk\src\rp2_common\pico_double\double_v1_rom_shim.S
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.i"
+	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_PREPROCESSED_SOURCE
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.s"
+	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_ASSEMBLY_SOURCE
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: lib/CMakeFiles/MahonyAHRS.dir/flags.make
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: C:/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Tommaso\C++\Drone\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building ASM object lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj"
+	cd /d C:\Users\Tommaso\C++\Drone\build\lib && C:\PROGRA~2\ARMGNU~2\1142DA~1.3RE\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\rp2_common\pico_int64_ops\pico_int64_ops_aeabi.S.obj   -c C:\Users\Tommaso\pico\pico-sdk\src\rp2_common\pico_int64_ops\pico_int64_ops_aeabi.S
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.i"
+	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_PREPROCESSED_SOURCE
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.s"
+	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_ASSEMBLY_SOURCE
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj: lib/CMakeFiles/MahonyAHRS.dir/flags.make
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj: C:/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Tommaso\C++\Drone\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building ASM object lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj"
+	cd /d C:\Users\Tommaso\C++\Drone\build\lib && C:\PROGRA~2\ARMGNU~2\1142DA~1.3RE\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\rp2_common\pico_float\float_aeabi.S.obj   -c C:\Users\Tommaso\pico\pico-sdk\src\rp2_common\pico_float\float_aeabi.S
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.i"
+	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_PREPROCESSED_SOURCE
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.s"
+	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_ASSEMBLY_SOURCE
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: lib/CMakeFiles/MahonyAHRS.dir/flags.make
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: C:/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: lib/CMakeFiles/MahonyAHRS.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Tommaso\C++\Drone\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj"
+	cd /d C:\Users\Tommaso\C++\Drone\build\lib && C:\PROGRA~2\ARMGNU~2\1142DA~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj -MF CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\rp2_common\pico_float\float_init_rom.c.obj.d -o CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\rp2_common\pico_float\float_init_rom.c.obj -c C:\Users\Tommaso\pico\pico-sdk\src\rp2_common\pico_float\float_init_rom.c
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i"
+	cd /d C:\Users\Tommaso\C++\Drone\build\lib && C:\PROGRA~2\ARMGNU~2\1142DA~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Tommaso\pico\pico-sdk\src\rp2_common\pico_float\float_init_rom.c > CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\rp2_common\pico_float\float_init_rom.c.i
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s"
+	cd /d C:\Users\Tommaso\C++\Drone\build\lib && C:\PROGRA~2\ARMGNU~2\1142DA~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Tommaso\pico\pico-sdk\src\rp2_common\pico_float\float_init_rom.c -o CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\rp2_common\pico_float\float_init_rom.c.s
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: lib/CMakeFiles/MahonyAHRS.dir/flags.make
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: C:/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_float/float_math.c
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: lib/CMakeFiles/MahonyAHRS.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Tommaso\C++\Drone\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj"
+	cd /d C:\Users\Tommaso\C++\Drone\build\lib && C:\PROGRA~2\ARMGNU~2\1142DA~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj -MF CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\rp2_common\pico_float\float_math.c.obj.d -o CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\rp2_common\pico_float\float_math.c.obj -c C:\Users\Tommaso\pico\pico-sdk\src\rp2_common\pico_float\float_math.c
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i"
+	cd /d C:\Users\Tommaso\C++\Drone\build\lib && C:\PROGRA~2\ARMGNU~2\1142DA~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Tommaso\pico\pico-sdk\src\rp2_common\pico_float\float_math.c > CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\rp2_common\pico_float\float_math.c.i
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s"
+	cd /d C:\Users\Tommaso\C++\Drone\build\lib && C:\PROGRA~2\ARMGNU~2\1142DA~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Tommaso\pico\pico-sdk\src\rp2_common\pico_float\float_math.c -o CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\rp2_common\pico_float\float_math.c.s
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: lib/CMakeFiles/MahonyAHRS.dir/flags.make
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: C:/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Tommaso\C++\Drone\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building ASM object lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj"
+	cd /d C:\Users\Tommaso\C++\Drone\build\lib && C:\PROGRA~2\ARMGNU~2\1142DA~1.3RE\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\rp2_common\pico_float\float_v1_rom_shim.S.obj   -c C:\Users\Tommaso\pico\pico-sdk\src\rp2_common\pico_float\float_v1_rom_shim.S
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.i"
+	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_PREPROCESSED_SOURCE
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.s"
+	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_ASSEMBLY_SOURCE
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: lib/CMakeFiles/MahonyAHRS.dir/flags.make
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: C:/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: lib/CMakeFiles/MahonyAHRS.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Tommaso\C++\Drone\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj"
+	cd /d C:\Users\Tommaso\C++\Drone\build\lib && C:\PROGRA~2\ARMGNU~2\1142DA~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj -MF CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c.obj.d -o CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c.obj -c C:\Users\Tommaso\pico\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i"
+	cd /d C:\Users\Tommaso\C++\Drone\build\lib && C:\PROGRA~2\ARMGNU~2\1142DA~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Tommaso\pico\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c > CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c.i
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s"
+	cd /d C:\Users\Tommaso\C++\Drone\build\lib && C:\PROGRA~2\ARMGNU~2\1142DA~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Tommaso\pico\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c -o CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c.s
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: lib/CMakeFiles/MahonyAHRS.dir/flags.make
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: C:/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Tommaso\C++\Drone\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building ASM object lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj"
+	cd /d C:\Users\Tommaso\C++\Drone\build\lib && C:\PROGRA~2\ARMGNU~2\1142DA~1.3RE\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\rp2_common\pico_mem_ops\mem_ops_aeabi.S.obj   -c C:\Users\Tommaso\pico\pico-sdk\src\rp2_common\pico_mem_ops\mem_ops_aeabi.S
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.i"
+	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_PREPROCESSED_SOURCE
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.s"
+	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_ASSEMBLY_SOURCE
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj: lib/CMakeFiles/MahonyAHRS.dir/flags.make
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj: C:/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Tommaso\C++\Drone\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building ASM object lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj"
+	cd /d C:\Users\Tommaso\C++\Drone\build\lib && C:\PROGRA~2\ARMGNU~2\1142DA~1.3RE\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\rp2_common\pico_standard_link\crt0.S.obj   -c C:\Users\Tommaso\pico\pico-sdk\src\rp2_common\pico_standard_link\crt0.S
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.i"
+	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_PREPROCESSED_SOURCE
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.s"
+	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_ASSEMBLY_SOURCE
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: lib/CMakeFiles/MahonyAHRS.dir/flags.make
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: C:/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: lib/CMakeFiles/MahonyAHRS.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Tommaso\C++\Drone\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj"
+	cd /d C:\Users\Tommaso\C++\Drone\build\lib && C:\PROGRA~2\ARMGNU~2\1142DA~1.3RE\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj -MF CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp.obj.d -o CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp.obj -c C:\Users\Tommaso\pico\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i"
+	cd /d C:\Users\Tommaso\C++\Drone\build\lib && C:\PROGRA~2\ARMGNU~2\1142DA~1.3RE\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Tommaso\pico\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp > CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp.i
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s"
+	cd /d C:\Users\Tommaso\C++\Drone\build\lib && C:\PROGRA~2\ARMGNU~2\1142DA~1.3RE\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Tommaso\pico\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp -o CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp.s
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: lib/CMakeFiles/MahonyAHRS.dir/flags.make
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: C:/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: lib/CMakeFiles/MahonyAHRS.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Tommaso\C++\Drone\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj"
+	cd /d C:\Users\Tommaso\C++\Drone\build\lib && C:\PROGRA~2\ARMGNU~2\1142DA~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj -MF CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c.obj.d -o CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c.obj -c C:\Users\Tommaso\pico\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i"
+	cd /d C:\Users\Tommaso\C++\Drone\build\lib && C:\PROGRA~2\ARMGNU~2\1142DA~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Tommaso\pico\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c > CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c.i
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s"
+	cd /d C:\Users\Tommaso\C++\Drone\build\lib && C:\PROGRA~2\ARMGNU~2\1142DA~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Tommaso\pico\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c -o CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c.s
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: lib/CMakeFiles/MahonyAHRS.dir/flags.make
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: C:/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: lib/CMakeFiles/MahonyAHRS.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Tommaso\C++\Drone\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj"
+	cd /d C:\Users\Tommaso\C++\Drone\build\lib && C:\PROGRA~2\ARMGNU~2\1142DA~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj -MF CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\rp2_common\pico_stdio\stdio.c.obj.d -o CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\rp2_common\pico_stdio\stdio.c.obj -c C:\Users\Tommaso\pico\pico-sdk\src\rp2_common\pico_stdio\stdio.c
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i"
+	cd /d C:\Users\Tommaso\C++\Drone\build\lib && C:\PROGRA~2\ARMGNU~2\1142DA~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Tommaso\pico\pico-sdk\src\rp2_common\pico_stdio\stdio.c > CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\rp2_common\pico_stdio\stdio.c.i
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s"
+	cd /d C:\Users\Tommaso\C++\Drone\build\lib && C:\PROGRA~2\ARMGNU~2\1142DA~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Tommaso\pico\pico-sdk\src\rp2_common\pico_stdio\stdio.c -o CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\rp2_common\pico_stdio\stdio.c.s
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: lib/CMakeFiles/MahonyAHRS.dir/flags.make
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: C:/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: lib/CMakeFiles/MahonyAHRS.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Tommaso\C++\Drone\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj"
+	cd /d C:\Users\Tommaso\C++\Drone\build\lib && C:\PROGRA~2\ARMGNU~2\1142DA~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj -MF CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c.obj.d -o CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c.obj -c C:\Users\Tommaso\pico\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i"
+	cd /d C:\Users\Tommaso\C++\Drone\build\lib && C:\PROGRA~2\ARMGNU~2\1142DA~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Tommaso\pico\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c > CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c.i
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s"
+	cd /d C:\Users\Tommaso\C++\Drone\build\lib && C:\PROGRA~2\ARMGNU~2\1142DA~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Tommaso\pico\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c -o CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c.s
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj: lib/CMakeFiles/MahonyAHRS.dir/flags.make
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj: C:/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj: lib/CMakeFiles/MahonyAHRS.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Tommaso\C++\Drone\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj"
+	cd /d C:\Users\Tommaso\C++\Drone\build\lib && C:\PROGRA~2\ARMGNU~2\1142DA~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj -MF CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\rp2_common\hardware_spi\spi.c.obj.d -o CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\rp2_common\hardware_spi\spi.c.obj -c C:\Users\Tommaso\pico\pico-sdk\src\rp2_common\hardware_spi\spi.c
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.i"
+	cd /d C:\Users\Tommaso\C++\Drone\build\lib && C:\PROGRA~2\ARMGNU~2\1142DA~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Tommaso\pico\pico-sdk\src\rp2_common\hardware_spi\spi.c > CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\rp2_common\hardware_spi\spi.c.i
+
+lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.s"
+	cd /d C:\Users\Tommaso\C++\Drone\build\lib && C:\PROGRA~2\ARMGNU~2\1142DA~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Tommaso\pico\pico-sdk\src\rp2_common\hardware_spi\spi.c -o CMakeFiles\MahonyAHRS.dir\C_\Users\Tommaso\pico\pico-sdk\src\rp2_common\hardware_spi\spi.c.s
+
 # Object files for target MahonyAHRS
 MahonyAHRS_OBJECTS = \
-"CMakeFiles/MahonyAHRS.dir/MahonyAHRS.c.obj"
+"CMakeFiles/MahonyAHRS.dir/MahonyAHRS.c.obj" \
+"CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj" \
+"CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj" \
+"CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj" \
+"CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj" \
+"CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj" \
+"CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj" \
+"CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj" \
+"CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/sem.c.obj" \
+"CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj" \
+"CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_time/time.c.obj" \
+"CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj" \
+"CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj" \
+"CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_util/datetime.c.obj" \
+"CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_util/pheap.c.obj" \
+"CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_util/queue.c.obj" \
+"CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/mutex.c.obj" \
+"CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj" \
+"CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj" \
+"CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj" \
+"CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj" \
+"CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj" \
+"CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj" \
+"CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj" \
+"CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj" \
+"CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj" \
+"CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj" \
+"CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj" \
+"CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj" \
+"CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj" \
+"CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj" \
+"CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj" \
+"CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj" \
+"CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj" \
+"CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj" \
+"CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj" \
+"CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj" \
+"CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj" \
+"CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj" \
+"CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj" \
+"CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj" \
+"CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj" \
+"CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj" \
+"CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj" \
+"CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj" \
+"CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj" \
+"CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj"
 
 # External object files for target MahonyAHRS
 MahonyAHRS_EXTERNAL_OBJECTS =
 
 lib/libMahonyAHRS.a: lib/CMakeFiles/MahonyAHRS.dir/MahonyAHRS.c.obj
+lib/libMahonyAHRS.a: lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
+lib/libMahonyAHRS.a: lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+lib/libMahonyAHRS.a: lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+lib/libMahonyAHRS.a: lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+lib/libMahonyAHRS.a: lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+lib/libMahonyAHRS.a: lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+lib/libMahonyAHRS.a: lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
+lib/libMahonyAHRS.a: lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/sem.c.obj
+lib/libMahonyAHRS.a: lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+lib/libMahonyAHRS.a: lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_time/time.c.obj
+lib/libMahonyAHRS.a: lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
+lib/libMahonyAHRS.a: lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+lib/libMahonyAHRS.a: lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_util/datetime.c.obj
+lib/libMahonyAHRS.a: lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+lib/libMahonyAHRS.a: lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_util/queue.c.obj
+lib/libMahonyAHRS.a: lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+lib/libMahonyAHRS.a: lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
+lib/libMahonyAHRS.a: lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+lib/libMahonyAHRS.a: lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
+lib/libMahonyAHRS.a: lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+lib/libMahonyAHRS.a: lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+lib/libMahonyAHRS.a: lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+lib/libMahonyAHRS.a: lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
+lib/libMahonyAHRS.a: lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+lib/libMahonyAHRS.a: lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+lib/libMahonyAHRS.a: lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+lib/libMahonyAHRS.a: lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+lib/libMahonyAHRS.a: lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+lib/libMahonyAHRS.a: lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+lib/libMahonyAHRS.a: lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+lib/libMahonyAHRS.a: lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+lib/libMahonyAHRS.a: lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+lib/libMahonyAHRS.a: lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+lib/libMahonyAHRS.a: lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+lib/libMahonyAHRS.a: lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+lib/libMahonyAHRS.a: lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+lib/libMahonyAHRS.a: lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
+lib/libMahonyAHRS.a: lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+lib/libMahonyAHRS.a: lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
+lib/libMahonyAHRS.a: lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+lib/libMahonyAHRS.a: lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+lib/libMahonyAHRS.a: lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
+lib/libMahonyAHRS.a: lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+lib/libMahonyAHRS.a: lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+lib/libMahonyAHRS.a: lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+lib/libMahonyAHRS.a: lib/CMakeFiles/MahonyAHRS.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
 lib/libMahonyAHRS.a: lib/CMakeFiles/MahonyAHRS.dir/build.make
 lib/libMahonyAHRS.a: lib/CMakeFiles/MahonyAHRS.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Tommaso\C++\Drone\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libMahonyAHRS.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Tommaso\C++\Drone\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Linking CXX static library libMahonyAHRS.a"
 	cd /d C:\Users\Tommaso\C++\Drone\build\lib && $(CMAKE_COMMAND) -P CMakeFiles\MahonyAHRS.dir\cmake_clean_target.cmake
 	cd /d C:\Users\Tommaso\C++\Drone\build\lib && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\MahonyAHRS.dir\link.txt --verbose=$(VERBOSE)
 

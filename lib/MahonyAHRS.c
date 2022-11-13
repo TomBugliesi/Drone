@@ -15,6 +15,7 @@
 // Header files
 
 #include "MahonyAHRS.h"
+#include <stdlib.h>
 #include <math.h>
 
 //---------------------------------------------------------------------------------------------------
@@ -43,7 +44,7 @@ float invSqrt(float x);
 //---------------------------------------------------------------------------------------------------
 // AHRS algorithm update
 
-void MahonyAHRSupdate(float sampleFreq, float gx, float gy, float gz, float ax, float ay, float az, float mx, float my, float mz) {
+void MahonyAHRSupdate(float *q_p, float sampleFreq, float gx, float gy, float gz, float ax, float ay, float az, float mx, float my, float mz) {
 	float recipNorm;
     float q0q0, q0q1, q0q2, q0q3, q1q1, q1q2, q1q3, q2q2, q2q3, q3q3;  
 	float hx, hy, bx, bz;
@@ -53,7 +54,7 @@ void MahonyAHRSupdate(float sampleFreq, float gx, float gy, float gz, float ax, 
 
 	// Use IMU algorithm if magnetometer measurement invalid (avoids NaN in magnetometer normalisation)
 	if((mx == 0.0f) && (my == 0.0f) && (mz == 0.0f)) {
-		MahonyAHRSupdateIMU(sampleFreq, gx, gy, gz, ax, ay, az);
+		MahonyAHRSupdateIMU(q_p, sampleFreq, gx, gy, gz, ax, ay, az);
 		return;
 	}
 
@@ -138,16 +139,20 @@ void MahonyAHRSupdate(float sampleFreq, float gx, float gy, float gz, float ax, 
 	
 	// Normalise quaternion
 	recipNorm = invSqrt(q0 * q0 + q1 * q1 + q2 * q2 + q3 * q3);
-	q0 *= recipNorm;
-	q1 *= recipNorm;
-	q2 *= recipNorm;
-	q3 *= recipNorm;
+	//q0 *= recipNorm;
+	//q1 *= recipNorm;
+	//q2 *= recipNorm;
+	//q3 *= recipNorm;
+	*(q_p+0) = q0*recipNorm;
+	*(q_p+1) = q1*recipNorm;
+	*(q_p+2) = q2*recipNorm;
+	*(q_p+3) = q3*recipNorm;
 }
 
 //---------------------------------------------------------------------------------------------------
 // IMU algorithm update
 
-void MahonyAHRSupdateIMU(float sampleFreq, float gx, float gy, float gz, float ax, float ay, float az) {
+void MahonyAHRSupdateIMU(float *q_p, float sampleFreq, float gx, float gy, float gz, float ax, float ay, float az) {
 	float recipNorm;
 	float halfvx, halfvy, halfvz;
 	float halfex, halfey, halfez;
@@ -207,10 +212,42 @@ void MahonyAHRSupdateIMU(float sampleFreq, float gx, float gy, float gz, float a
 	
 	// Normalise quaternion
 	recipNorm = invSqrt(q0 * q0 + q1 * q1 + q2 * q2 + q3 * q3);
-	q0 *= recipNorm;
-	q1 *= recipNorm;
-	q2 *= recipNorm;
-	q3 *= recipNorm;
+	//q0 *= recipNorm;
+	//q1 *= recipNorm;
+	//q2 *= recipNorm;
+	//q3 *= recipNorm;
+	*(q_p+0) = q0*recipNorm;
+	*(q_p+1) = q1*recipNorm;
+	*(q_p+2) = q2*recipNorm;
+	*(q_p+3) = q3*recipNorm;
+}
+
+double *toEuler(float q[4]){
+	double angles[3];
+	double q_d[4];
+	q_d[0] = (double)q[0];
+	q_d[1] = (double)q[1];
+	q_d[2] = (double)q[2];
+	q_d[3] = (double)q[3];
+
+	// roll (x-axis rotation)
+    double sinr_cosp = 2 * (q_d[0] * q_d[1] + q_d[2] * q_d[3]);
+    double cosr_cosp = 1 - 2 * (q_d[1] * q_d[1] + q_d[2] * q_d[2]);
+    angles[0] = atan2(sinr_cosp, cosr_cosp);
+
+    // pitch (y-axis rotation)
+    double sinp = 2 * (q_d[0] * q_d[2] - q_d[3] * q_d[1]);
+    if (abs(sinp) >= 1)
+        angles[1]= copysign(3.14159 / 2, sinp); // use 90 degrees if out of range
+    else
+        angles[1]= asin(sinp);
+
+    // yaw (z-axis rotation)
+    double siny_cosp = 2 * (q_d[0] * q_d[3] + q_d[1] * q_d[2]);
+    double cosy_cosp = 1 - 2 * (q_d[2] * q_d[2] + q_d[3] * q_d[3]);
+    angles[2] = atan2(siny_cosp, cosy_cosp);
+
+    return angles;
 }
 
 //---------------------------------------------------------------------------------------------------

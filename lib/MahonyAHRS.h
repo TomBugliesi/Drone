@@ -1,3 +1,5 @@
+#ifndef MAHONYAHRS_H
+#define MAHONYAHRS_H
 //=====================================================================================================
 // MahonyAHRS.h
 //=====================================================================================================
@@ -10,9 +12,6 @@
 // 02/10/2011	SOH Madgwick	Optimised for reduced CPU load
 //
 //=====================================================================================================
-#ifndef MahonyAHRS_h
-#define MahonyAHRS_h
-
 //----------------------------------------------------------------------------------------------------
 // Variable declaration
 
@@ -23,8 +22,9 @@ extern volatile float q0, q1, q2, q3;	// quaternion of sensor frame relative to 
 //---------------------------------------------------------------------------------------------------
 // Function declarations
 
-void MahonyAHRSupdate(float sampleFreq, float gx, float gy, float gz, float ax, float ay, float az, float mx, float my, float mz);
-void MahonyAHRSupdateIMU(float sampleFreq, float gx, float gy, float gz, float ax, float ay, float az);
+void MahonyAHRSupdate(float *q_p, float sampleFreq, float gx, float gy, float gz, float ax, float ay, float az, float mx, float my, float mz);
+void MahonyAHRSupdateIMU(float *q_p, float sampleFreq, float gx, float gy, float gz, float ax, float ay, float az);
+double *toEuler(float q[4]);
 
 #endif
 //=====================================================================================================
