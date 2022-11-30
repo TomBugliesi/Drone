@@ -156,6 +156,5 @@ C:/Users/Tommaso/C++/Drone/build/pico-sdk/docs/CMakeFiles/edit_cache.dir
 C:/Users/Tommaso/C++/Drone/build/pico-sdk/docs/CMakeFiles/rebuild_cache.dir
 C:/Users/Tommaso/C++/Drone/build/lib/CMakeFiles/pico_mpu9250.dir
 C:/Users/Tommaso/C++/Drone/build/lib/CMakeFiles/MahonyAHRS.dir
-C:/Users/Tommaso/C++/Drone/build/lib/CMakeFiles/init.dir
 C:/Users/Tommaso/C++/Drone/build/lib/CMakeFiles/edit_cache.dir
 C:/Users/Tommaso/C++/Drone/build/lib/CMakeFiles/rebuild_cache.dir

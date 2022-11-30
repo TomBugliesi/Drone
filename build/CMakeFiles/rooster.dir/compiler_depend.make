@@ -892,7 +892,8 @@ CMakeFiles/rooster.dir/C_/Users/Tommaso/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
   C:/Users/Tommaso/pico/pico-sdk/lib/tinyusb/src/device/usbd.h \
   C:/Users/Tommaso/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.h \
   C:/Users/Tommaso/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc.h \
-  C:/Users/Tommaso/pico/pico-sdk/lib/tinyusb/src/device/usbd_pvt.h
+  C:/Users/Tommaso/pico/pico-sdk/lib/tinyusb/src/device/usbd_pvt.h \
+  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/11.3\ rel1/arm-none-eabi/include/ctype.h
 
 CMakeFiles/rooster.dir/C_/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: C:/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/critical_section.c \
   C:/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/include/pico/critical_section.h \
@@ -2672,6 +2673,222 @@ CMakeFiles/rooster.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_unique
   C:/Users/Tommaso/pico/pico-sdk/src/common/pico_base/include/pico/error.h \
   C:/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_unique_id/include/pico/unique_id.h
 
+CMakeFiles/rooster.dir/lib/RF24/RF24.cpp.obj: C:/Users/Tommaso/C++/Drone/lib/RF24/RF24.cpp \
+  C:/Users/Tommaso/C++/Drone/lib/RF24/nRF24L01.h \
+  C:/Users/Tommaso/C++/Drone/lib/RF24/RF24_config.h \
+  C:/Users/Tommaso/C++/Drone/lib/RF24/utility/rp2/RF24_arch_config.h \
+  C:/Users/Tommaso/C++/Drone/lib/RF24/utility/rp2/spi.h \
+  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/11.3\ rel1/arm-none-eabi/include/stdio.h \
+  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/11.3\ rel1/arm-none-eabi/include/_ansi.h \
+  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/11.3\ rel1/arm-none-eabi/include/newlib.h \
+  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/11.3\ rel1/arm-none-eabi/include/_newlib_version.h \
+  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/11.3\ rel1/arm-none-eabi/include/sys/config.h \
+  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/11.3\ rel1/arm-none-eabi/include/machine/ieeefp.h \
+  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/11.3\ rel1/arm-none-eabi/include/sys/features.h \
+  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/11.3\ rel1/arm-none-eabi/include/sys/cdefs.h \
+  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/11.3\ rel1/arm-none-eabi/include/machine/_default_types.h \
+  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/11.3\ rel1/lib/gcc/arm-none-eabi/11.3.1/include/stddef.h \
+  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/11.3\ rel1/lib/gcc/arm-none-eabi/11.3.1/include/stdarg.h \
+  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/11.3\ rel1/arm-none-eabi/include/sys/reent.h \
+  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/11.3\ rel1/arm-none-eabi/include/_ansi.h \
+  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/11.3\ rel1/arm-none-eabi/include/sys/_types.h \
+  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/11.3\ rel1/arm-none-eabi/include/machine/_types.h \
+  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/11.3\ rel1/arm-none-eabi/include/sys/lock.h \
+  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/11.3\ rel1/arm-none-eabi/include/sys/stdio.h \
+  C:/Users/Tommaso/pico/pico-sdk/src/common/pico_stdlib/include/pico/stdlib.h \
+  C:/Users/Tommaso/pico/pico-sdk/src/common/pico_base/include/pico.h \
+  C:/Users/Tommaso/pico/pico-sdk/src/common/pico_base/include/pico/types.h \
+  C:/Users/Tommaso/pico/pico-sdk/src/common/pico_base/include/pico/assert.h \
+  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/11.3\ rel1/lib/gcc/arm-none-eabi/11.3.1/include/stdbool.h \
+  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/11.3\ rel1/arm-none-eabi/include/c++/11.3.1/cassert \
+  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/11.3\ rel1/arm-none-eabi/include/c++/11.3.1/arm-none-eabi/thumb/v6-m/nofp/bits/c++config.h \
+  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/11.3\ rel1/arm-none-eabi/include/c++/11.3.1/arm-none-eabi/thumb/v6-m/nofp/bits/os_defines.h \
+  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/11.3\ rel1/arm-none-eabi/include/c++/11.3.1/arm-none-eabi/thumb/v6-m/nofp/bits/cpu_defines.h \
+  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/11.3\ rel1/arm-none-eabi/include/c++/11.3.1/pstl/pstl_config.h \
+  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/11.3\ rel1/arm-none-eabi/include/assert.h \
+  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/11.3\ rel1/lib/gcc/arm-none-eabi/11.3.1/include/stdint.h \
+  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/11.3\ rel1/arm-none-eabi/include/stdint.h \
+  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/11.3\ rel1/arm-none-eabi/include/sys/_intsup.h \
+  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/11.3\ rel1/arm-none-eabi/include/sys/_stdint.h \
+  generated/pico_base/pico/version.h \
+  C:/Users/Tommaso/pico/pico-sdk/src/common/pico_base/include/pico/config.h \
+  generated/pico_base/pico/config_autogen.h \
+  C:/Users/Tommaso/pico/pico-sdk/src/boards/include/boards/pico.h \
+  C:/Users/Tommaso/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  C:/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
+  C:/Users/Tommaso/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  C:/Users/Tommaso/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  C:/Users/Tommaso/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  C:/Users/Tommaso/pico/pico-sdk/src/common/pico_base/include/pico/types.h \
+  C:/Users/Tommaso/pico/pico-sdk/src/common/pico_base/include/pico/error.h \
+  C:/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+  C:/Users/Tommaso/pico/pico-sdk/src/common/pico_time/include/pico/time.h \
+  C:/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  C:/Users/Tommaso/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
+  C:/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  C:/Users/Tommaso/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
+  C:/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
+  C:/Users/Tommaso/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h \
+  C:/Users/Tommaso/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h \
+  C:/Users/Tommaso/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/padsbank0.h \
+  C:/Users/Tommaso/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h \
+  C:/Users/Tommaso/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/iobank0.h \
+  C:/Users/Tommaso/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_bank0.h \
+  C:/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
+  C:/Users/Tommaso/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
+  C:/Users/Tommaso/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h \
+  C:/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h \
+  C:/Users/Tommaso/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/uart.h \
+  C:/Users/Tommaso/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h \
+  C:/Users/Tommaso/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h \
+  C:/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+  C:/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h \
+  C:/Users/Tommaso/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/spi.h \
+  C:/Users/Tommaso/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/spi.h \
+  C:/Users/Tommaso/C++/Drone/lib/RF24/utility/rp2/gpio.h \
+  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/11.3\ rel1/arm-none-eabi/include/string.h \
+  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/11.3\ rel1/arm-none-eabi/include/sys/_locale.h \
+  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/11.3\ rel1/arm-none-eabi/include/strings.h \
+  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/11.3\ rel1/arm-none-eabi/include/sys/string.h \
+  C:/Users/Tommaso/C++/Drone/lib/RF24/RF24.h
+
+CMakeFiles/rooster.dir/lib/RF24/utility/rp2/gpio.cpp.obj: C:/Users/Tommaso/C++/Drone/lib/RF24/utility/rp2/gpio.cpp \
+  C:/Users/Tommaso/C++/Drone/lib/RF24/utility/rp2/gpio.h \
+  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/11.3\ rel1/arm-none-eabi/include/stdio.h \
+  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/11.3\ rel1/arm-none-eabi/include/_ansi.h \
+  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/11.3\ rel1/arm-none-eabi/include/newlib.h \
+  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/11.3\ rel1/arm-none-eabi/include/_newlib_version.h \
+  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/11.3\ rel1/arm-none-eabi/include/sys/config.h \
+  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/11.3\ rel1/arm-none-eabi/include/machine/ieeefp.h \
+  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/11.3\ rel1/arm-none-eabi/include/sys/features.h \
+  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/11.3\ rel1/arm-none-eabi/include/sys/cdefs.h \
+  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/11.3\ rel1/arm-none-eabi/include/machine/_default_types.h \
+  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/11.3\ rel1/lib/gcc/arm-none-eabi/11.3.1/include/stddef.h \
+  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/11.3\ rel1/lib/gcc/arm-none-eabi/11.3.1/include/stdarg.h \
+  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/11.3\ rel1/arm-none-eabi/include/sys/reent.h \
+  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/11.3\ rel1/arm-none-eabi/include/_ansi.h \
+  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/11.3\ rel1/arm-none-eabi/include/sys/_types.h \
+  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/11.3\ rel1/arm-none-eabi/include/machine/_types.h \
+  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/11.3\ rel1/arm-none-eabi/include/sys/lock.h \
+  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/11.3\ rel1/arm-none-eabi/include/sys/stdio.h \
+  C:/Users/Tommaso/pico/pico-sdk/src/common/pico_stdlib/include/pico/stdlib.h \
+  C:/Users/Tommaso/pico/pico-sdk/src/common/pico_base/include/pico.h \
+  C:/Users/Tommaso/pico/pico-sdk/src/common/pico_base/include/pico/types.h \
+  C:/Users/Tommaso/pico/pico-sdk/src/common/pico_base/include/pico/assert.h \
+  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/11.3\ rel1/lib/gcc/arm-none-eabi/11.3.1/include/stdbool.h \
+  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/11.3\ rel1/arm-none-eabi/include/c++/11.3.1/cassert \
+  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/11.3\ rel1/arm-none-eabi/include/c++/11.3.1/arm-none-eabi/thumb/v6-m/nofp/bits/c++config.h \
+  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/11.3\ rel1/arm-none-eabi/include/c++/11.3.1/arm-none-eabi/thumb/v6-m/nofp/bits/os_defines.h \
+  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/11.3\ rel1/arm-none-eabi/include/c++/11.3.1/arm-none-eabi/thumb/v6-m/nofp/bits/cpu_defines.h \
+  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/11.3\ rel1/arm-none-eabi/include/c++/11.3.1/pstl/pstl_config.h \
+  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/11.3\ rel1/arm-none-eabi/include/assert.h \
+  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/11.3\ rel1/lib/gcc/arm-none-eabi/11.3.1/include/stdint.h \
+  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/11.3\ rel1/arm-none-eabi/include/stdint.h \
+  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/11.3\ rel1/arm-none-eabi/include/sys/_intsup.h \
+  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/11.3\ rel1/arm-none-eabi/include/sys/_stdint.h \
+  generated/pico_base/pico/version.h \
+  C:/Users/Tommaso/pico/pico-sdk/src/common/pico_base/include/pico/config.h \
+  generated/pico_base/pico/config_autogen.h \
+  C:/Users/Tommaso/pico/pico-sdk/src/boards/include/boards/pico.h \
+  C:/Users/Tommaso/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  C:/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
+  C:/Users/Tommaso/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  C:/Users/Tommaso/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  C:/Users/Tommaso/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  C:/Users/Tommaso/pico/pico-sdk/src/common/pico_base/include/pico/types.h \
+  C:/Users/Tommaso/pico/pico-sdk/src/common/pico_base/include/pico/error.h \
+  C:/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+  C:/Users/Tommaso/pico/pico-sdk/src/common/pico_time/include/pico/time.h \
+  C:/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  C:/Users/Tommaso/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
+  C:/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  C:/Users/Tommaso/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
+  C:/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
+  C:/Users/Tommaso/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h \
+  C:/Users/Tommaso/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h \
+  C:/Users/Tommaso/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/padsbank0.h \
+  C:/Users/Tommaso/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h \
+  C:/Users/Tommaso/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/iobank0.h \
+  C:/Users/Tommaso/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_bank0.h \
+  C:/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
+  C:/Users/Tommaso/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
+  C:/Users/Tommaso/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h \
+  C:/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h \
+  C:/Users/Tommaso/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/uart.h \
+  C:/Users/Tommaso/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h \
+  C:/Users/Tommaso/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h \
+  C:/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h
+
+CMakeFiles/rooster.dir/lib/RF24/utility/rp2/spi.cpp.obj: C:/Users/Tommaso/C++/Drone/lib/RF24/utility/rp2/spi.cpp \
+  C:/Users/Tommaso/C++/Drone/lib/RF24/utility/rp2/spi.h \
+  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/11.3\ rel1/arm-none-eabi/include/stdio.h \
+  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/11.3\ rel1/arm-none-eabi/include/_ansi.h \
+  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/11.3\ rel1/arm-none-eabi/include/newlib.h \
+  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/11.3\ rel1/arm-none-eabi/include/_newlib_version.h \
+  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/11.3\ rel1/arm-none-eabi/include/sys/config.h \
+  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/11.3\ rel1/arm-none-eabi/include/machine/ieeefp.h \
+  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/11.3\ rel1/arm-none-eabi/include/sys/features.h \
+  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/11.3\ rel1/arm-none-eabi/include/sys/cdefs.h \
+  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/11.3\ rel1/arm-none-eabi/include/machine/_default_types.h \
+  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/11.3\ rel1/lib/gcc/arm-none-eabi/11.3.1/include/stddef.h \
+  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/11.3\ rel1/lib/gcc/arm-none-eabi/11.3.1/include/stdarg.h \
+  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/11.3\ rel1/arm-none-eabi/include/sys/reent.h \
+  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/11.3\ rel1/arm-none-eabi/include/_ansi.h \
+  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/11.3\ rel1/arm-none-eabi/include/sys/_types.h \
+  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/11.3\ rel1/arm-none-eabi/include/machine/_types.h \
+  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/11.3\ rel1/arm-none-eabi/include/sys/lock.h \
+  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/11.3\ rel1/arm-none-eabi/include/sys/stdio.h \
+  C:/Users/Tommaso/pico/pico-sdk/src/common/pico_stdlib/include/pico/stdlib.h \
+  C:/Users/Tommaso/pico/pico-sdk/src/common/pico_base/include/pico.h \
+  C:/Users/Tommaso/pico/pico-sdk/src/common/pico_base/include/pico/types.h \
+  C:/Users/Tommaso/pico/pico-sdk/src/common/pico_base/include/pico/assert.h \
+  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/11.3\ rel1/lib/gcc/arm-none-eabi/11.3.1/include/stdbool.h \
+  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/11.3\ rel1/arm-none-eabi/include/c++/11.3.1/cassert \
+  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/11.3\ rel1/arm-none-eabi/include/c++/11.3.1/arm-none-eabi/thumb/v6-m/nofp/bits/c++config.h \
+  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/11.3\ rel1/arm-none-eabi/include/c++/11.3.1/arm-none-eabi/thumb/v6-m/nofp/bits/os_defines.h \
+  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/11.3\ rel1/arm-none-eabi/include/c++/11.3.1/arm-none-eabi/thumb/v6-m/nofp/bits/cpu_defines.h \
+  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/11.3\ rel1/arm-none-eabi/include/c++/11.3.1/pstl/pstl_config.h \
+  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/11.3\ rel1/arm-none-eabi/include/assert.h \
+  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/11.3\ rel1/lib/gcc/arm-none-eabi/11.3.1/include/stdint.h \
+  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/11.3\ rel1/arm-none-eabi/include/stdint.h \
+  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/11.3\ rel1/arm-none-eabi/include/sys/_intsup.h \
+  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/11.3\ rel1/arm-none-eabi/include/sys/_stdint.h \
+  generated/pico_base/pico/version.h \
+  C:/Users/Tommaso/pico/pico-sdk/src/common/pico_base/include/pico/config.h \
+  generated/pico_base/pico/config_autogen.h \
+  C:/Users/Tommaso/pico/pico-sdk/src/boards/include/boards/pico.h \
+  C:/Users/Tommaso/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  C:/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
+  C:/Users/Tommaso/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  C:/Users/Tommaso/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  C:/Users/Tommaso/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  C:/Users/Tommaso/pico/pico-sdk/src/common/pico_base/include/pico/types.h \
+  C:/Users/Tommaso/pico/pico-sdk/src/common/pico_base/include/pico/error.h \
+  C:/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+  C:/Users/Tommaso/pico/pico-sdk/src/common/pico_time/include/pico/time.h \
+  C:/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  C:/Users/Tommaso/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
+  C:/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  C:/Users/Tommaso/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
+  C:/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
+  C:/Users/Tommaso/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h \
+  C:/Users/Tommaso/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h \
+  C:/Users/Tommaso/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/padsbank0.h \
+  C:/Users/Tommaso/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h \
+  C:/Users/Tommaso/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/iobank0.h \
+  C:/Users/Tommaso/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_bank0.h \
+  C:/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
+  C:/Users/Tommaso/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
+  C:/Users/Tommaso/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h \
+  C:/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h \
+  C:/Users/Tommaso/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/uart.h \
+  C:/Users/Tommaso/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h \
+  C:/Users/Tommaso/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h \
+  C:/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+  C:/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h \
+  C:/Users/Tommaso/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/spi.h \
+  C:/Users/Tommaso/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/spi.h
+
 CMakeFiles/rooster.dir/main.cpp.obj: C:/Users/Tommaso/C++/Drone/main.cpp \
   C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/11.3\ rel1/arm-none-eabi/include/stdio.h \
   C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/11.3\ rel1/arm-none-eabi/include/_ansi.h \
@@ -2840,7 +3057,11 @@ CMakeFiles/rooster.dir/main.cpp.obj: C:/Users/Tommaso/C++/Drone/main.cpp \
   C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/11.3\ rel1/arm-none-eabi/include/string.h \
   C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/11.3\ rel1/arm-none-eabi/include/strings.h \
   C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/11.3\ rel1/arm-none-eabi/include/sys/string.h \
-  C:/Users/Tommaso/C++/Drone/lib/init.h \
+  C:/Users/Tommaso/C++/Drone/lib/RF24/RF24.h \
+  C:/Users/Tommaso/C++/Drone/lib/RF24/RF24_config.h \
+  C:/Users/Tommaso/C++/Drone/lib/RF24/utility/rp2/RF24_arch_config.h \
+  C:/Users/Tommaso/C++/Drone/lib/RF24/utility/rp2/spi.h \
+  C:/Users/Tommaso/C++/Drone/lib/RF24/utility/rp2/gpio.h \
   C:/Users/Tommaso/C++/Drone/lib/MahonyAHRS.h
 
 
@@ -2907,6 +3128,8 @@ C:/Users/Tommaso/pico/pico-sdk/src/boards/include/boards/pico.h:
 C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/11.3\ rel1/arm-none-eabi/include/newlib.h:
 
 C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/11.3\ rel1/arm-none-eabi/include/_newlib_version.h:
+
+C:/Users/Tommaso/C++/Drone/lib/RF24/RF24.cpp:
 
 C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/11.3\ rel1/arm-none-eabi/include/sys/config.h:
 
@@ -3112,11 +3335,15 @@ C:/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio/driv
 
 C:/Users/Tommaso/pico/pico-sdk/lib/tinyusb/src/tusb.c:
 
+C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/11.3\ rel1/arm-none-eabi/include/ctype.h:
+
 C:/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/critical_section.c:
 
 C:/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c:
 
 C:/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/lock_core.c:
+
+C:/Users/Tommaso/C++/Drone/lib/RF24/utility/rp2/RF24_arch_config.h:
 
 C:/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/mutex.c:
 
@@ -3135,6 +3362,8 @@ C:/Users/Tommaso/pico/pico-sdk/src/common/pico_sync/include/pico/sync.h:
 C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/11.3\ rel1/arm-none-eabi/include/c++/11.3.1/cassert:
 
 C:/Users/Tommaso/pico/pico-sdk/src/common/pico_time/timeout_helper.c:
+
+C:/Users/Tommaso/C++/Drone/lib/RF24/nRF24L01.h:
 
 C:/Users/Tommaso/pico/pico-sdk/src/common/pico_util/datetime.c:
 
@@ -3252,6 +3481,8 @@ C:/Users/Tommaso/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/vr
 
 C:/Users/Tommaso/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/psm.h:
 
+C:/Users/Tommaso/C++/Drone/lib/RF24/RF24_config.h:
+
 C:/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c:
 
 C:/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/sf_table.h:
@@ -3296,6 +3527,8 @@ C:/Users/Tommaso/pico/pico-sdk/src/rp2_common/boot_stage2/include/boot_stage2/co
 
 C:/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp:
 
+C:/Users/Tommaso/C++/Drone/lib/RF24/utility/rp2/gpio.h:
+
 C:/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c:
 
 C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/11.3\ rel1/arm-none-eabi/include/c++/11.3.1/cstdlib:
@@ -3325,6 +3558,16 @@ C:/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descripto
 C:/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c:
 
 C:/Users/Tommaso/pico/pico-sdk/src/common/pico_stdlib/include/pico/stdlib.h:
+
+C:/Users/Tommaso/C++/Drone/lib/RF24/utility/rp2/spi.h:
+
+C:/Users/Tommaso/C++/Drone/lib/RF24/RF24.h:
+
+C:/Users/Tommaso/C++/Drone/lib/RF24/utility/rp2/gpio.cpp:
+
+C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/11.3\ rel1/arm-none-eabi/include/c++/11.3.1/cwctype:
+
+C:/Users/Tommaso/C++/Drone/lib/RF24/utility/rp2/spi.cpp:
 
 C:/Users/Tommaso/C++/Drone/main.cpp:
 
@@ -3394,8 +3637,6 @@ C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/11.3\ rel1/arm-none-
 
 C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/11.3\ rel1/arm-none-eabi/include/c++/11.3.1/cctype:
 
-C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/11.3\ rel1/arm-none-eabi/include/ctype.h:
-
 C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/11.3\ rel1/arm-none-eabi/include/c++/11.3.1/bits/ios_base.h:
 
 C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/11.3\ rel1/arm-none-eabi/include/c++/11.3.1/ext/atomicity.h:
@@ -3442,8 +3683,6 @@ C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/11.3\ rel1/arm-none-
 
 C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/11.3\ rel1/arm-none-eabi/include/c++/11.3.1/bits/locale_facets.h:
 
-C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/11.3\ rel1/arm-none-eabi/include/c++/11.3.1/cwctype:
-
 C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/11.3\ rel1/arm-none-eabi/include/wctype.h:
 
 C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/11.3\ rel1/arm-none-eabi/include/c++/11.3.1/bits/streambuf_iterator.h:
@@ -3453,7 +3692,5 @@ C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/11.3\ rel1/arm-none-
 C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/11.3\ rel1/arm-none-eabi/include/c++/11.3.1/bits/ostream.tcc:
 
 C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/11.3\ rel1/arm-none-eabi/include/c++/11.3.1/bits/istream.tcc:
-
-C:/Users/Tommaso/C++/Drone/lib/init.h:
 
 C:/Users/Tommaso/C++/Drone/lib/MahonyAHRS.h:

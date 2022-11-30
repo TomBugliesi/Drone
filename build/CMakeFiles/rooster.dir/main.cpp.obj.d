@@ -166,5 +166,9 @@ CMakeFiles/rooster.dir/main.cpp.obj: C:\Users\Tommaso\C++\Drone\main.cpp \
  c:\progra~2\armgnu~2\1142da~1.3re\arm-none-eabi\include\string.h \
  c:\progra~2\armgnu~2\1142da~1.3re\arm-none-eabi\include\strings.h \
  c:\progra~2\armgnu~2\1142da~1.3re\arm-none-eabi\include\sys\string.h \
- C:\Users\Tommaso\C++\Drone\lib/init.h \
+ c:\users\tommaso\c++\drone\lib\rf24\rf24.h \
+ c:\users\tommaso\c++\drone\lib\rf24\RF24_config.h \
+ c:\users\tommaso\c++\drone\lib\rf24\utility/rp2/RF24_arch_config.h \
+ c:\users\tommaso\c++\drone\lib\rf24\utility/rp2/spi.h \
+ c:\users\tommaso\c++\drone\lib\rf24\utility/rp2/gpio.h \
  C:\Users\Tommaso\C++\Drone\lib/MahonyAHRS.h

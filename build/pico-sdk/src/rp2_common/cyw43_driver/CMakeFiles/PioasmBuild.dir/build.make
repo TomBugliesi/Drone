@@ -85,10 +85,10 @@ pico-sdk/src/rp2_common/cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-bu
 	cd /d C:\Users\Tommaso\C++\Drone\build\pioasm && $(MAKE)
 
 pico-sdk/src/rp2_common/cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-configure: pico-sdk/src/rp2_common/cyw43_driver/pioasm/tmp/PioasmBuild-cfgcmd.txt
-pico-sdk/src/rp2_common/cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-configure: pico-sdk/src/rp2_common/cyw43_driver/pioasm/tmp/PioasmBuild-cache-Release.cmake
+pico-sdk/src/rp2_common/cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-configure: pico-sdk/src/rp2_common/cyw43_driver/pioasm/tmp/PioasmBuild-cache-Debug.cmake
 pico-sdk/src/rp2_common/cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-configure: pico-sdk/src/rp2_common/cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-patch
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\Users\Tommaso\C++\Drone\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Performing configure step for 'PioasmBuild'"
-	cd /d C:\Users\Tommaso\C++\Drone\build\pioasm && "C:\Program Files\CMake\bin\cmake.exe" "-GMinGW Makefiles" -CC:/Users/Tommaso/C++/Drone/build/pico-sdk/src/rp2_common/cyw43_driver/pioasm/tmp/PioasmBuild-cache-Release.cmake C:/Users/Tommaso/pico/pico-sdk/tools/pioasm
+	cd /d C:\Users\Tommaso\C++\Drone\build\pioasm && "C:\Program Files\CMake\bin\cmake.exe" "-GMinGW Makefiles" -CC:/Users/Tommaso/C++/Drone/build/pico-sdk/src/rp2_common/cyw43_driver/pioasm/tmp/PioasmBuild-cache-Debug.cmake C:/Users/Tommaso/pico/pico-sdk/tools/pioasm
 	cd /d C:\Users\Tommaso\C++\Drone\build\pioasm && "C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Tommaso/C++/Drone/build/pico-sdk/src/rp2_common/cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-configure
 
 pico-sdk/src/rp2_common/cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-download: pico-sdk/src/rp2_common/cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-source_dirinfo.txt

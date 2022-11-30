@@ -10,7 +10,7 @@ import argparse
 ser = serial.Serial()
 ser.port = 'COM3' #Arduino serial port
 ser.baudrate = 115200
-ser.timeout = 10 #specify timeout when using readline()
+ser.timeout = 1 #specify timeout when using readline()
 ser.open()
 if ser.is_open==True:
 	print("\nAll right, serial port now open. Configuration:\n")

@@ -19,12 +19,23 @@ extern volatile float twoKp;			// 2 * proportional gain (Kp)
 extern volatile float twoKi;			// 2 * integral gain (Ki)
 extern volatile float q0, q1, q2, q3;	// quaternion of sensor frame relative to auxiliary frame
 
+#define PI 3.1415
 //---------------------------------------------------------------------------------------------------
 // Function declarations
 
-void MahonyAHRSupdate(float *q_p, float sampleFreq, float gx, float gy, float gz, float ax, float ay, float az, float mx, float my, float mz);
-void MahonyAHRSupdateIMU(float *q_p, float sampleFreq, float gx, float gy, float gz, float ax, float ay, float az);
-double *toEuler(float q[4]);
+typedef struct Quaternion
+{
+    double w, x, y, z;
+}Quaternion;
+
+typedef struct EulerAngles {
+    double roll, pitch, yaw;
+}EulerAngles;
+
+void MahonyAHRSupdate(Quaternion *q_p, float sampleFreq, float gx, float gy, float gz, float ax, float ay, float az, float mx, float my, float mz);
+void MahonyAHRSupdateIMU(Quaternion *q_p, float sampleFreq, float gx, float gy, float gz, float ax, float ay, float az);
+Quaternion ToQuaternion(double roll, double pitch, double yaw);
+EulerAngles ToEulerAngles(Quaternion q);
 
 #endif
 //=====================================================================================================

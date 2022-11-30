@@ -22,8 +22,8 @@
 // Definitions
 
 //#define sampleFreq	512.0f			// sample frequency in Hz if available
-#define twoKpDef	(2.0f * 0.5f)	// 2 * proportional gain
-#define twoKiDef	(2.0f * 0.0f)	// 2 * integral gain
+#define twoKpDef	(2.0f * 0.6f)	// 2 * proportional gain
+#define twoKiDef	(2.0f * 0.1f)	// 2 * integral gain
 
 //---------------------------------------------------------------------------------------------------
 // Variable definitions
@@ -44,7 +44,7 @@ float invSqrt(float x);
 //---------------------------------------------------------------------------------------------------
 // AHRS algorithm update
 
-void MahonyAHRSupdate(float *q_p, float sampleFreq, float gx, float gy, float gz, float ax, float ay, float az, float mx, float my, float mz) {
+void MahonyAHRSupdate(Quaternion *q_p, float sampleFreq, float gx, float gy, float gz, float ax, float ay, float az, float mx, float my, float mz) {
 	float recipNorm;
     float q0q0, q0q1, q0q2, q0q3, q1q1, q1q2, q1q3, q2q2, q2q3, q3q3;  
 	float hx, hy, bx, bz;
@@ -143,16 +143,16 @@ void MahonyAHRSupdate(float *q_p, float sampleFreq, float gx, float gy, float gz
 	//q1 *= recipNorm;
 	//q2 *= recipNorm;
 	//q3 *= recipNorm;
-	*(q_p+0) = q0*recipNorm;
-	*(q_p+1) = q1*recipNorm;
-	*(q_p+2) = q2*recipNorm;
-	*(q_p+3) = q3*recipNorm;
+	q_p->w = q0*recipNorm;
+	q_p->x = q1*recipNorm;
+	q_p->y = q2*recipNorm;
+	q_p->z = q3*recipNorm;
 }
 
 //---------------------------------------------------------------------------------------------------
 // IMU algorithm update
 
-void MahonyAHRSupdateIMU(float *q_p, float sampleFreq, float gx, float gy, float gz, float ax, float ay, float az) {
+void MahonyAHRSupdateIMU(Quaternion *q_p, float sampleFreq, float gx, float gy, float gz, float ax, float ay, float az) {
 	float recipNorm;
 	float halfvx, halfvy, halfvz;
 	float halfex, halfey, halfez;
@@ -216,36 +216,51 @@ void MahonyAHRSupdateIMU(float *q_p, float sampleFreq, float gx, float gy, float
 	//q1 *= recipNorm;
 	//q2 *= recipNorm;
 	//q3 *= recipNorm;
-	*(q_p+0) = q0*recipNorm;
-	*(q_p+1) = q1*recipNorm;
-	*(q_p+2) = q2*recipNorm;
-	*(q_p+3) = q3*recipNorm;
+	q_p->w = q0*recipNorm;
+	q_p->x = q1*recipNorm;
+	q_p->y = q2*recipNorm;
+	q_p->z = q3*recipNorm;
 }
 
-double *toEuler(float q[4]){
-	double angles[3];
-	double q_d[4];
-	q_d[0] = (double)q[0];
-	q_d[1] = (double)q[1];
-	q_d[2] = (double)q[2];
-	q_d[3] = (double)q[3];
+Quaternion ToQuaternion(double roll, double pitch, double yaw) // roll (x), pitch (Y), yaw (z)
+{
+    // Abbreviations for the various angular functions
 
-	// roll (x-axis rotation)
-    double sinr_cosp = 2 * (q_d[0] * q_d[1] + q_d[2] * q_d[3]);
-    double cosr_cosp = 1 - 2 * (q_d[1] * q_d[1] + q_d[2] * q_d[2]);
-    angles[0] = atan2(sinr_cosp, cosr_cosp);
+    double cr = cos(roll * 0.5);
+    double sr = sin(roll * 0.5);
+    double cp = cos(pitch * 0.5);
+    double sp = sin(pitch * 0.5);
+    double cy = cos(yaw * 0.5);
+    double sy = sin(yaw * 0.5);
+
+    Quaternion q;
+    q.w = cr * cp * cy + sr * sp * sy;
+    q.x = sr * cp * cy - cr * sp * sy;
+    q.y = cr * sp * cy + sr * cp * sy;
+    q.z = cr * cp * sy - sr * sp * cy;
+
+    return q;
+}
+
+EulerAngles ToEulerAngles(Quaternion q) {
+    EulerAngles angles;
+
+    // roll (x-axis rotation)
+    double sinr_cosp = 2 * (q.w * q.x + q.y * q.z);
+    double cosr_cosp = 1 - 2 * (q.x * q.x + q.y * q.y);
+    angles.roll = atan2(sinr_cosp, cosr_cosp);
 
     // pitch (y-axis rotation)
-    double sinp = 2 * (q_d[0] * q_d[2] - q_d[3] * q_d[1]);
+    double sinp = 2 * (q.w * q.y - q.z * q.x);
     if (abs(sinp) >= 1)
-        angles[1]= copysign(3.14159 / 2, sinp); // use 90 degrees if out of range
+        angles.pitch = copysign(PI / 2, sinp); // use 90 degrees if out of range
     else
-        angles[1]= asin(sinp);
+        angles.pitch = asin(sinp);
 
     // yaw (z-axis rotation)
-    double siny_cosp = 2 * (q_d[0] * q_d[3] + q_d[1] * q_d[2]);
-    double cosy_cosp = 1 - 2 * (q_d[2] * q_d[2] + q_d[3] * q_d[3]);
-    angles[2] = atan2(siny_cosp, cosy_cosp);
+    double siny_cosp = 2 * (q.w * q.z + q.x * q.y);
+    double cosy_cosp = 1 - 2 * (q.y * q.y + q.z * q.z);
+    angles.yaw = atan2(siny_cosp, cosy_cosp);
 
     return angles;
 }

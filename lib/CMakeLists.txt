@@ -9,5 +9,5 @@ add_library(MahonyAHRS MahonyAHRS.c MahonyAHRS.h)
 target_link_libraries(MahonyAHRS pico_stdlib hardware_spi) #Specify which library is linked to the new library 
 
 #init
-add_library(init init.cpp init.h)
-target_link_libraries(init pico_stdlib hardware_spi) #Specify which library is linked to the new library 
+#add_library(init init.cpp init.h)
+#target_link_libraries(init pico_stdlib hardware_spi) #Specify which library is linked to the new library 

@@ -23,7 +23,7 @@ set(CMAKE_DEPENDS_CHECK_ASM
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_ASM
-  "CFG_TUSB_DEBUG=0"
+  "CFG_TUSB_DEBUG=1"
   "CFG_TUSB_MCU=OPT_MCU_RP2040"
   "CFG_TUSB_OS=OPT_OS_PICO"
   "LIB_PICO_BIT_OPS=1"
@@ -58,7 +58,7 @@ set(CMAKE_TARGET_DEFINITIONS_ASM
   "LIB_PICO_UTIL=1"
   "PICO_BOARD=\"pico\""
   "PICO_BUILD=1"
-  "PICO_CMAKE_BUILD_TYPE=\"Release\""
+  "PICO_CMAKE_BUILD_TYPE=\"Debug\""
   "PICO_COPY_TO_RAM=0"
   "PICO_CXX_ENABLE_EXCEPTIONS=0"
   "PICO_NO_FLASH=0"
@@ -116,6 +116,7 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "C:/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_flash/include"
   "C:/Users/Tommaso/pico/pico-sdk/src/common/pico_usb_reset_interface/include"
   "C:/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_spi/include"
+  "C:/Users/Tommaso/C++/Drone/lib/RF24/utility/rp2/../.."
   )
 
 # The set of dependency files which are needed:
@@ -178,6 +179,9 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c" "CMakeFiles/rooster.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj" "gcc" "CMakeFiles/rooster.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj.d"
   "C:/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c" "CMakeFiles/rooster.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj" "gcc" "CMakeFiles/rooster.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj.d"
   "C:/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp" "CMakeFiles/rooster.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj" "gcc" "CMakeFiles/rooster.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj.d"
+  "C:/Users/Tommaso/C++/Drone/lib/RF24/RF24.cpp" "CMakeFiles/rooster.dir/lib/RF24/RF24.cpp.obj" "gcc" "CMakeFiles/rooster.dir/lib/RF24/RF24.cpp.obj.d"
+  "C:/Users/Tommaso/C++/Drone/lib/RF24/utility/rp2/gpio.cpp" "CMakeFiles/rooster.dir/lib/RF24/utility/rp2/gpio.cpp.obj" "gcc" "CMakeFiles/rooster.dir/lib/RF24/utility/rp2/gpio.cpp.obj.d"
+  "C:/Users/Tommaso/C++/Drone/lib/RF24/utility/rp2/spi.cpp" "CMakeFiles/rooster.dir/lib/RF24/utility/rp2/spi.cpp.obj" "gcc" "CMakeFiles/rooster.dir/lib/RF24/utility/rp2/spi.cpp.obj.d"
   "C:/Users/Tommaso/C++/Drone/main.cpp" "CMakeFiles/rooster.dir/main.cpp.obj" "gcc" "CMakeFiles/rooster.dir/main.cpp.obj.d"
   )
 
@@ -185,7 +189,6 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
 set(CMAKE_TARGET_LINKED_INFO_FILES
   "C:/Users/Tommaso/C++/Drone/build/lib/CMakeFiles/pico_mpu9250.dir/DependInfo.cmake"
   "C:/Users/Tommaso/C++/Drone/build/lib/CMakeFiles/MahonyAHRS.dir/DependInfo.cmake"
-  "C:/Users/Tommaso/C++/Drone/build/lib/CMakeFiles/init.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

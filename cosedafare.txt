@@ -1,8 +1,7 @@
 
-// Modifica funzione calibrazione gyro, aggiungi output gyro reale a partire da raw data
-// Stesse cose per il magnetometro, calibrazione più complessa 
-// quindi testa il mahgdwick filter
-// da quaternioni ad angoli di eulero
+// Aggiungi tutta la logica di lettua del magnetometro a partire dal protocollo i2c 
+// modifica la funzione to Euler in modo che prenda in ingresso una struttura. Ora restituisce l'address di una variabile temporanea
+// quindi testa il mahgdwick filter avendo incluso l'accelerometro
 // quindi passa al modulo nrf24l01
 // quindi includi il modulo di controllo dei motori
 // quindi includi il pid. Poi si vola 

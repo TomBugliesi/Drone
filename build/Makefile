@@ -245,19 +245,6 @@ MahonyAHRS/fast:
 	$(MAKE) $(MAKESILENT) -f lib\CMakeFiles\MahonyAHRS.dir\build.make lib/CMakeFiles/MahonyAHRS.dir/build
 .PHONY : MahonyAHRS/fast
 
-#=============================================================================
-# Target rules for targets named init
-
-# Build rule for target.
-init: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 init
-.PHONY : init
-
-# fast build rule for target.
-init/fast:
-	$(MAKE) $(MAKESILENT) -f lib\CMakeFiles\init.dir\build.make lib/CMakeFiles/init.dir/build
-.PHONY : init/fast
-
 C_/Users/Tommaso/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj: C_/Users/Tommaso/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
 .PHONY : C_/Users/Tommaso/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj
 
@@ -1738,6 +1725,78 @@ C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\rooster.dir\build.make CMakeFiles/rooster.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
 .PHONY : C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
 
+lib/RF24/RF24.obj: lib/RF24/RF24.cpp.obj
+.PHONY : lib/RF24/RF24.obj
+
+# target to build an object file
+lib/RF24/RF24.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\rooster.dir\build.make CMakeFiles/rooster.dir/lib/RF24/RF24.cpp.obj
+.PHONY : lib/RF24/RF24.cpp.obj
+
+lib/RF24/RF24.i: lib/RF24/RF24.cpp.i
+.PHONY : lib/RF24/RF24.i
+
+# target to preprocess a source file
+lib/RF24/RF24.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\rooster.dir\build.make CMakeFiles/rooster.dir/lib/RF24/RF24.cpp.i
+.PHONY : lib/RF24/RF24.cpp.i
+
+lib/RF24/RF24.s: lib/RF24/RF24.cpp.s
+.PHONY : lib/RF24/RF24.s
+
+# target to generate assembly for a file
+lib/RF24/RF24.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\rooster.dir\build.make CMakeFiles/rooster.dir/lib/RF24/RF24.cpp.s
+.PHONY : lib/RF24/RF24.cpp.s
+
+lib/RF24/utility/rp2/gpio.obj: lib/RF24/utility/rp2/gpio.cpp.obj
+.PHONY : lib/RF24/utility/rp2/gpio.obj
+
+# target to build an object file
+lib/RF24/utility/rp2/gpio.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\rooster.dir\build.make CMakeFiles/rooster.dir/lib/RF24/utility/rp2/gpio.cpp.obj
+.PHONY : lib/RF24/utility/rp2/gpio.cpp.obj
+
+lib/RF24/utility/rp2/gpio.i: lib/RF24/utility/rp2/gpio.cpp.i
+.PHONY : lib/RF24/utility/rp2/gpio.i
+
+# target to preprocess a source file
+lib/RF24/utility/rp2/gpio.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\rooster.dir\build.make CMakeFiles/rooster.dir/lib/RF24/utility/rp2/gpio.cpp.i
+.PHONY : lib/RF24/utility/rp2/gpio.cpp.i
+
+lib/RF24/utility/rp2/gpio.s: lib/RF24/utility/rp2/gpio.cpp.s
+.PHONY : lib/RF24/utility/rp2/gpio.s
+
+# target to generate assembly for a file
+lib/RF24/utility/rp2/gpio.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\rooster.dir\build.make CMakeFiles/rooster.dir/lib/RF24/utility/rp2/gpio.cpp.s
+.PHONY : lib/RF24/utility/rp2/gpio.cpp.s
+
+lib/RF24/utility/rp2/spi.obj: lib/RF24/utility/rp2/spi.cpp.obj
+.PHONY : lib/RF24/utility/rp2/spi.obj
+
+# target to build an object file
+lib/RF24/utility/rp2/spi.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\rooster.dir\build.make CMakeFiles/rooster.dir/lib/RF24/utility/rp2/spi.cpp.obj
+.PHONY : lib/RF24/utility/rp2/spi.cpp.obj
+
+lib/RF24/utility/rp2/spi.i: lib/RF24/utility/rp2/spi.cpp.i
+.PHONY : lib/RF24/utility/rp2/spi.i
+
+# target to preprocess a source file
+lib/RF24/utility/rp2/spi.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\rooster.dir\build.make CMakeFiles/rooster.dir/lib/RF24/utility/rp2/spi.cpp.i
+.PHONY : lib/RF24/utility/rp2/spi.cpp.i
+
+lib/RF24/utility/rp2/spi.s: lib/RF24/utility/rp2/spi.cpp.s
+.PHONY : lib/RF24/utility/rp2/spi.s
+
+# target to generate assembly for a file
+lib/RF24/utility/rp2/spi.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\rooster.dir\build.make CMakeFiles/rooster.dir/lib/RF24/utility/rp2/spi.cpp.s
+.PHONY : lib/RF24/utility/rp2/spi.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -1778,7 +1837,6 @@ help:
 	@echo ... cyw43_firmware_package
 	@echo ... MahonyAHRS
 	@echo ... bs2_default
-	@echo ... init
 	@echo ... pico_mpu9250
 	@echo ... rooster
 	@echo ... C_/Users/Tommaso/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj
@@ -1966,6 +2024,15 @@ help:
 	@echo ... C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.obj
 	@echo ... C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.i
 	@echo ... C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.s
+	@echo ... lib/RF24/RF24.obj
+	@echo ... lib/RF24/RF24.i
+	@echo ... lib/RF24/RF24.s
+	@echo ... lib/RF24/utility/rp2/gpio.obj
+	@echo ... lib/RF24/utility/rp2/gpio.i
+	@echo ... lib/RF24/utility/rp2/gpio.s
+	@echo ... lib/RF24/utility/rp2/spi.obj
+	@echo ... lib/RF24/utility/rp2/spi.i
+	@echo ... lib/RF24/utility/rp2/spi.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

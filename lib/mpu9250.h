@@ -13,9 +13,20 @@
 /////////////////////////////////////////////////////////////////////
 // Adapted for c++/c by Tommaso Bugliesi 2022                 
 /////////////////////////////////////////////////////////////////////
-///////////////////////////////////////////////////////////
+
+// Pico GPIO ports
+
+#define PIN_MISO 4
+#define PIN_CS 5
+#define PIN_SCK 6
+#define PIN_MOSI 7
+
+#define SPI_PORT spi0
+#define READ_BIT 0x80
+
+#define PI 3.1415
+
 // Register Map for Gyroscope and Accelerometer - MPU 9250
-///////////////////////////////////////////////////////////
 
 // Registers
 #define PWR_MGMT_1 0x6B
@@ -63,10 +74,10 @@
 #define AFS_16G 0x03  // 16G
 
 // Accelerometer Scale Modifiers
-#define ACCEL_SCALE_MODIFIER_2G 2.0/32768.0
-#define ACCEL_SCALE_MODIFIER_4G 4.0/32768.0
-#define ACCEL_SCALE_MODIFIER_8G 8.0/32768.0
-#define ACCEL_SCALE_MODIFIER_16G 16.0/32768.0
+const float ACCEL_SCALE_MODIFIER_2G=2.0/32768.0;
+const float ACCEL_SCALE_MODIFIER_4G=4.0/32768.0;
+const float ACCEL_SCALE_MODIFIER_8G=8.0/32768.0;
+const float ACCEL_SCALE_MODIFIER_16G=16.0/32768.0;
 
 #define ACCEL_SCALE_MODIFIER_2G_DIV 32768.0/2.0 //bits per g, higher the value, lower the resolution
 #define ACCEL_SCALE_MODIFIER_4G_DIV 32768.0/4.0
@@ -169,33 +180,64 @@
 #define MPU9050_ADDRESS_69  0x69
 #define AK8963_ADDRESS  0x0C
 
-void mpu9250_reset();
-void ak8963_reset(); //NOT USE
+class MPU9250
+{
+    public:
+    int16_t acc[3];
+    int16_t gyro[3];
+    int16_t mag[3];
 
-void read_registers(uint8_t reg, uint8_t *buf, uint16_t len); 
+    float acc_float[3];
+    float *acc_float_p = &acc_float[0];
+    float gyro_float[3];
+    float *gyro_float_p = &gyro_float[0];
+    float mag_float[3];
+    float *mag_float_p = &mag_float[0];
+    float gyro_float_rad[3];
+    float deg2pi = PI/180.;
+    float pi2deg = 180./PI;
 
-void mpu9250_afs_set(uint8_t afs);
-void mpu9250_gfs_set(uint8_t gfs);
+    float acc_scale[1];
+    float *acc_scale_p = &acc_scale[0];
+    float gyro_scale[1];
+    float *gyro_scale_p = &gyro_scale[0];
+    float mag_scale[1];
+    float *mag_scale_p = &mag_scale[0];
 
-void mpu9250_read_raw_accel(int16_t accel[3]);
-void mpu9250_read_raw_gyro(int16_t gyro[3]);
-void mpu9250_read_raw_mag(int16_t mag[3]);
+    int16_t acc_bias[3];
+    int16_t *acc_bias_p = &acc_bias[0];
+    int16_t gyro_bias[3];
+    int16_t *gyro_bias_p = &gyro_bias[0];
+    int16_t mag_bias[3];
+    int16_t *mag_bias_p = &mag_bias[0];
 
-void mpu9250_read_acc(float accel_float[3], int16_t accel_bias[3], float accel_scale[0]);
-void mpu9250_read_gyro(float gyro_float[3], int16_t gyrol_bias[3], float gyro_scale[0]);
+    public:
+    MPU9250();
+    void cs_select();
+    void cs_deselect();
+    
+    void mpu9250_reset();
+    void ak8963_reset(); //NOT USE
+    
+    void read_registers(uint8_t reg, uint8_t *buf, uint16_t len); 
+    
+    void mpu9250_afs_set(uint8_t afs);
+    void mpu9250_gfs_set(uint8_t gfs);
+    
+    void mpu9250_read_raw_acc(int16_t acc[3]);
+    void mpu9250_read_raw_gyro(int16_t gyro[3]);
+    void mpu9250_read_raw_mag(int16_t mag[3]);
 
-void mpu9250_read_acc_scale(float *accel_scale_p);
-void mpu9250_read_gyro_scale(float *gyro_scale_p);
+    void mpu9250_read_acc(float *acc_float_p, int16_t acc_bias[3], float acc_scale[0]);
+    void mpu9250_read_gyro(float *gyro_float_p, int16_t gyrol_bias[3], float gyro_scale[0]);
 
-//void calibrate_acc(int16_t accCal[3], int loop=1000);
-void calibrate_accel(int16_t *acc_bias_p, float *acc_scale_p, int loop);
-void calibrate_gyro(int16_t *gyro_bias_p, int loop);
+    void mpu9250_read_acc_scale(float *acc_scale_p);
+    void mpu9250_read_gyro_scale(float *gyro_scale_p);
 
-void mpu9250_read_raw_gyro_offset(int16_t gyro[3], int16_t gyroCal[3]);
+    void calibrate_acc(int16_t *acc_bias_p, float *acc_scale_p, int loop);
+    void calibrate_gyro(int16_t *gyro_bias_p, int loop);
 
-void calculate_angles_from_accel(int16_t eulerAngles[2], int16_t accel[3]);
-void calculate_angles(int16_t eulerAngles[2], int16_t accel[3], int16_t gyro[3], uint64_t usSinceLastReading);
-void convert_to_full(int16_t eulerAngles[2], int16_t accel[3], int16_t fullAngles[2]);
-void start_spi();
+    void start_spi();
+};
 
 #endif

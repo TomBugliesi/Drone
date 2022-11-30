@@ -1037,6 +1037,48 @@ CMakeFiles/rooster.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_sp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rooster.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.s"
 	C:\PROGRA~2\ARMGNU~2\1142DA~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Tommaso\pico\pico-sdk\src\rp2_common\hardware_spi\spi.c -o CMakeFiles\rooster.dir\C_\Users\Tommaso\pico\pico-sdk\src\rp2_common\hardware_spi\spi.c.s
 
+CMakeFiles/rooster.dir/lib/RF24/RF24.cpp.obj: CMakeFiles/rooster.dir/flags.make
+CMakeFiles/rooster.dir/lib/RF24/RF24.cpp.obj: C:/Users/Tommaso/C++/Drone/lib/RF24/RF24.cpp
+CMakeFiles/rooster.dir/lib/RF24/RF24.cpp.obj: CMakeFiles/rooster.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Tommaso\C++\Drone\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building CXX object CMakeFiles/rooster.dir/lib/RF24/RF24.cpp.obj"
+	C:\PROGRA~2\ARMGNU~2\1142DA~1.3RE\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/rooster.dir/lib/RF24/RF24.cpp.obj -MF CMakeFiles\rooster.dir\lib\RF24\RF24.cpp.obj.d -o CMakeFiles\rooster.dir\lib\RF24\RF24.cpp.obj -c C:\Users\Tommaso\C++\Drone\lib\RF24\RF24.cpp
+
+CMakeFiles/rooster.dir/lib/RF24/RF24.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rooster.dir/lib/RF24/RF24.cpp.i"
+	C:\PROGRA~2\ARMGNU~2\1142DA~1.3RE\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Tommaso\C++\Drone\lib\RF24\RF24.cpp > CMakeFiles\rooster.dir\lib\RF24\RF24.cpp.i
+
+CMakeFiles/rooster.dir/lib/RF24/RF24.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rooster.dir/lib/RF24/RF24.cpp.s"
+	C:\PROGRA~2\ARMGNU~2\1142DA~1.3RE\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Tommaso\C++\Drone\lib\RF24\RF24.cpp -o CMakeFiles\rooster.dir\lib\RF24\RF24.cpp.s
+
+CMakeFiles/rooster.dir/lib/RF24/utility/rp2/gpio.cpp.obj: CMakeFiles/rooster.dir/flags.make
+CMakeFiles/rooster.dir/lib/RF24/utility/rp2/gpio.cpp.obj: C:/Users/Tommaso/C++/Drone/lib/RF24/utility/rp2/gpio.cpp
+CMakeFiles/rooster.dir/lib/RF24/utility/rp2/gpio.cpp.obj: CMakeFiles/rooster.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Tommaso\C++\Drone\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building CXX object CMakeFiles/rooster.dir/lib/RF24/utility/rp2/gpio.cpp.obj"
+	C:\PROGRA~2\ARMGNU~2\1142DA~1.3RE\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/rooster.dir/lib/RF24/utility/rp2/gpio.cpp.obj -MF CMakeFiles\rooster.dir\lib\RF24\utility\rp2\gpio.cpp.obj.d -o CMakeFiles\rooster.dir\lib\RF24\utility\rp2\gpio.cpp.obj -c C:\Users\Tommaso\C++\Drone\lib\RF24\utility\rp2\gpio.cpp
+
+CMakeFiles/rooster.dir/lib/RF24/utility/rp2/gpio.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rooster.dir/lib/RF24/utility/rp2/gpio.cpp.i"
+	C:\PROGRA~2\ARMGNU~2\1142DA~1.3RE\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Tommaso\C++\Drone\lib\RF24\utility\rp2\gpio.cpp > CMakeFiles\rooster.dir\lib\RF24\utility\rp2\gpio.cpp.i
+
+CMakeFiles/rooster.dir/lib/RF24/utility/rp2/gpio.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rooster.dir/lib/RF24/utility/rp2/gpio.cpp.s"
+	C:\PROGRA~2\ARMGNU~2\1142DA~1.3RE\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Tommaso\C++\Drone\lib\RF24\utility\rp2\gpio.cpp -o CMakeFiles\rooster.dir\lib\RF24\utility\rp2\gpio.cpp.s
+
+CMakeFiles/rooster.dir/lib/RF24/utility/rp2/spi.cpp.obj: CMakeFiles/rooster.dir/flags.make
+CMakeFiles/rooster.dir/lib/RF24/utility/rp2/spi.cpp.obj: C:/Users/Tommaso/C++/Drone/lib/RF24/utility/rp2/spi.cpp
+CMakeFiles/rooster.dir/lib/RF24/utility/rp2/spi.cpp.obj: CMakeFiles/rooster.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Tommaso\C++\Drone\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building CXX object CMakeFiles/rooster.dir/lib/RF24/utility/rp2/spi.cpp.obj"
+	C:\PROGRA~2\ARMGNU~2\1142DA~1.3RE\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/rooster.dir/lib/RF24/utility/rp2/spi.cpp.obj -MF CMakeFiles\rooster.dir\lib\RF24\utility\rp2\spi.cpp.obj.d -o CMakeFiles\rooster.dir\lib\RF24\utility\rp2\spi.cpp.obj -c C:\Users\Tommaso\C++\Drone\lib\RF24\utility\rp2\spi.cpp
+
+CMakeFiles/rooster.dir/lib/RF24/utility/rp2/spi.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rooster.dir/lib/RF24/utility/rp2/spi.cpp.i"
+	C:\PROGRA~2\ARMGNU~2\1142DA~1.3RE\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Tommaso\C++\Drone\lib\RF24\utility\rp2\spi.cpp > CMakeFiles\rooster.dir\lib\RF24\utility\rp2\spi.cpp.i
+
+CMakeFiles/rooster.dir/lib/RF24/utility/rp2/spi.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rooster.dir/lib/RF24/utility/rp2/spi.cpp.s"
+	C:\PROGRA~2\ARMGNU~2\1142DA~1.3RE\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Tommaso\C++\Drone\lib\RF24\utility\rp2\spi.cpp -o CMakeFiles\rooster.dir\lib\RF24\utility\rp2\spi.cpp.s
+
 # Object files for target rooster
 rooster_OBJECTS = \
 "CMakeFiles/rooster.dir/main.cpp.obj" \
@@ -1108,7 +1150,10 @@ rooster_OBJECTS = \
 "CMakeFiles/rooster.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj" \
 "CMakeFiles/rooster.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj" \
 "CMakeFiles/rooster.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj" \
-"CMakeFiles/rooster.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj"
+"CMakeFiles/rooster.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj" \
+"CMakeFiles/rooster.dir/lib/RF24/RF24.cpp.obj" \
+"CMakeFiles/rooster.dir/lib/RF24/utility/rp2/gpio.cpp.obj" \
+"CMakeFiles/rooster.dir/lib/RF24/utility/rp2/spi.cpp.obj"
 
 # External object files for target rooster
 rooster_EXTERNAL_OBJECTS =
@@ -1183,14 +1228,16 @@ rooster.elf: CMakeFiles/rooster.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_commo
 rooster.elf: CMakeFiles/rooster.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
 rooster.elf: CMakeFiles/rooster.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
 rooster.elf: CMakeFiles/rooster.dir/C_/Users/Tommaso/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
+rooster.elf: CMakeFiles/rooster.dir/lib/RF24/RF24.cpp.obj
+rooster.elf: CMakeFiles/rooster.dir/lib/RF24/utility/rp2/gpio.cpp.obj
+rooster.elf: CMakeFiles/rooster.dir/lib/RF24/utility/rp2/spi.cpp.obj
 rooster.elf: CMakeFiles/rooster.dir/build.make
 rooster.elf: lib/libpico_mpu9250.a
 rooster.elf: lib/libMahonyAHRS.a
-rooster.elf: lib/libinit.a
 rooster.elf: pico-sdk/src/rp2_common/boot_stage2/bs2_default_padded_checksummed.S
 rooster.elf: CMakeFiles/rooster.dir/objects1.rsp
 rooster.elf: CMakeFiles/rooster.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Tommaso\C++\Drone\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Linking CXX executable rooster.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Tommaso\C++\Drone\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Linking CXX executable rooster.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\rooster.dir\link.txt --verbose=$(VERBOSE)
 	"C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\11.3 rel1\bin\arm-none-eabi-objcopy.exe" -Oihex C:/Users/Tommaso/C++/Drone/build/rooster.elf rooster.hex
 	"C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\11.3 rel1\bin\arm-none-eabi-objcopy.exe" -Obinary C:/Users/Tommaso/C++/Drone/build/rooster.elf rooster.bin
